@@ -1,9 +1,18 @@
+import AboutUs from '@/components/AboutUs'
+import ContactUs from '@/components/ContactUs'
+import Hero from '@/components/Hero'
+import Portfolio from '@/components/Portfolio'
+import Services from '@/components/Services'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <main>
-      <h2 className='text-center bg-black text-fuchsia-500 text-7xl'>here We go</h2>
+      <Hero />
+      <AboutUs />
+      <Services />
+      <Portfolio />
+      <ContactUs />
     </main>
   )
 }
