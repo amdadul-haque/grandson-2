@@ -1,8 +1,41 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
+
+// framer motion
+import { useAnimation, motion } from "framer-motion";
+
+// intersection observer
+import { useInView } from "react-intersection-observer";
 
 const ContactUs = () => {
+  // intersection observer
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  // animation
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        scale: 1,
+        transition: {
+          duration: 0.4,
+        },
+      });
+    } else {
+      animation.start({
+        opacity: 0,
+        scale: 0.5,
+      });
+    }
+  }, [inView]);
+
   return (
-    <div className="bg-[#000000] w-full max-w-[1300px] mx-auto flex justify-between font-oswald items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6">
+    <div
+      ref={ref}
+      className="bg-[#000000] w-full mx-auto flex justify-between font-oswald items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6">
       {/* <div className="text-[#fff] w-[50%] text-center ">
         <h1 className="font-extrabold text-[1.5rem] mb-6">
           A CREATIVE STUDIO IN MELBOURNE, PASSIONATE ABOUT DESIGN, ART AND
@@ -13,7 +46,7 @@ const ContactUs = () => {
         </button>
       </div> */}
 
-      <div className="text-[#fff] 1040px:w-[50%]">
+      <motion.div animate={animation} className="text-[#fff] 1040px:w-[50%]">
         <h1 className="font-extrabold text-[1rem] 400px:text-[1.5rem] mb-6">
           LET'S WORK TOGETHER PROJECTS JUST SEND ME EMAIL HERE
         </h1>
@@ -51,7 +84,7 @@ const ContactUs = () => {
             </button>
           </div>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 };
