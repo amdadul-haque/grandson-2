@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 
 // frammer motion
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Hero = () => {
   // change the background text in hero section
