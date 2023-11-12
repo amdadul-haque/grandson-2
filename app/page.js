@@ -28,12 +28,15 @@ export default function Home() {
 
     return () => clearTimeout(timer);
   }, [isLoading]);
+
   return (
     <>
-      {isLoading && isHome ? (
-        <SplashScreen finishLoading={() => setIsLoading(false)} />
-      ) : (
-        <main className="overflow-hidden">
+      <main className="overflow-hidden">
+        <>
+          <SplashScreen
+            isLoading={isLoading}
+            finishLoading={() => setIsLoading(false)}
+          />
           <Navbar />
           <Hero />
           <AboutUs />
@@ -77,8 +80,8 @@ export default function Home() {
               ".link",
             ]}
           />
-        </main>
-      )}
+        </>
+      </main>
     </>
   );
 }
