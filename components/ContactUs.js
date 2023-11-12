@@ -15,6 +15,19 @@ const ContactUs = () => {
   // animation
   const animation = useAnimation();
 
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    const res = await fetch("/contact/api", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+    const data = await res.json();
+    console.log("data", data);
+  };
+
   useEffect(() => {
     if (inView) {
       animation.start({
@@ -35,7 +48,8 @@ const ContactUs = () => {
   return (
     <div
       ref={ref}
-      className="bg-[#000000] w-full mx-auto flex justify-between font-oswald items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6">
+      className="bg-[#000000] w-full mx-auto flex justify-between font-oswald items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6"
+    >
       {/* <div className="text-[#fff] w-[50%] text-center ">
         <h1 className="font-extrabold text-[1.5rem] mb-6">
           A CREATIVE STUDIO IN MELBOURNE, PASSIONATE ABOUT DESIGN, ART AND
@@ -75,7 +89,8 @@ const ContactUs = () => {
               cols="30"
               placeholder="Message"
               className="w-full mt-8 text-[0.8rem] 400px:text-[1rem] py-3 h-[120px] bg-[#000] border-b border-[#464545] text-[#fff] outline-none"
-              rows="10"></textarea>
+              rows="10"
+            ></textarea>
           </div>
 
           <div className="mt-8">
