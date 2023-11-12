@@ -17,17 +17,17 @@ export default function Home() {
   const isHome = pathname === "/";
   const [isLoading, setIsLoading] = useState(isHome);
 
-  useEffect(() => {
-    if (isLoading) {
-      return;
-    }
+  // useEffect(() => {
+  //   if (isLoading) {
+  //     return;
+  //   }
 
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
 
-    return () => clearTimeout(timer);
-  }, [isLoading]);
+  //   return () => clearTimeout(timer);
+  // }, [isLoading]);
   return (
     <>
       {isLoading && isHome ? (
