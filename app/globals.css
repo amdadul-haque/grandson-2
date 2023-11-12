@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* navbar hover effect */
+.navBar ul li {
+  position: relative;
+  overflow: hidden;
+}
+
+.navBar ul li p {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.navBar ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.navBar ul li:hover p {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.navBar ul li:hover span {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+/* mega menu */
+.megamenu ul li {
+  margin-bottom: 0.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.megamenu ul li:hover {
+  letter-spacing: 0.1rem;
+}
