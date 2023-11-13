@@ -90,7 +90,7 @@
 
 .progress-bar-background {
   width: 30%; /* Control the width of the progress bar */
-  height: 5px;
+  height: 2px;
   background-color: #ffffff44; /* Light grey background for the progress bar */
   position: relative;
   transition: all 0.2s ease-in-out;

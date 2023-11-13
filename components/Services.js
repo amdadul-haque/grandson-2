@@ -55,8 +55,9 @@ const Services = () => {
 
   return (
     <div
+      id="services"
       ref={ref}
-      className="flex items-center font-oswald justify-between w-full mx-auto bg-hero gap-12 1040px:px-0 400px:px-12 px-6 bg-center py-12 1040px:flex-row flex-col 1040px:py-24">
+      className="flex items-center  justify-between w-full mx-auto bg-hero gap-12 1040px:px-0 400px:px-12 px-6 bg-center py-12 1040px:flex-row flex-col 1040px:py-24">
       <motion.div
         animate={leftAnimation}
         className="text-[#fff] 1040px:pl-24 1040px:text-start text-center 1040px:w-[60%]">

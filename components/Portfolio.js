@@ -46,10 +46,10 @@ const Portfolio = () => {
   }, [inView]);
 
   return (
-    <div className="bg-black w-full ">
+    <div id="portfolio" className="bg-black w-full ">
       <div
         ref={ref}
-        className="bg-[#000000] max-w-[1320px] mx-auto flex justify-between font-oswald 1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
+        className="bg-[#000000] max-w-[1320px] mx-auto flex justify-between  1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
 
         <motion.div
           animate={leftAnimation}
@@ -70,7 +70,8 @@ const Portfolio = () => {
         <motion.div
           animate={rightAnimation}
           className="grid 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
-          <img
+
+          {/* <img
             src="https://html.dynamiclayers.net/it/alison/img/prtf-1.jpg"
             alt="img"
           />
@@ -93,10 +94,33 @@ const Portfolio = () => {
           <img
             src="https://html.dynamiclayers.net/it/alison/img/prtf-6.jpg"
             alt="img"
-          />
+          /> */}
+          {
+            Array.from(Array(6)).map((_, i) => {
+              if (i === 2) {
+                return (
+                  <img
+                    key={i}
+                    src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.gif`}
+                    alt="img"
+                  />
+                )
+              }
+              return (
+                // <div className="h-full w-full bg-fuchsia-500 relative">
+                <img
+                  key={i}
+                  src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.jpg`}
+                  alt="img"
+                // className="absolute inset-0 w-full h-full object-cover"
+                />
+                // </div>
+              )
+            })
+          }
         </motion.div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 };
 

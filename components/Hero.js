@@ -31,12 +31,12 @@ const Hero = () => {
   }, [index]);
 
   return (
-    <div className="w-full bg-hero bg-center bg-gray-800 h-[100vh] text-white flex items-center justify-center text-center">
+    <div id="hero" className="w-full bg-hero bg-center bg-gray-800 h-[100vh] text-white flex items-center justify-center text-center">
       <div className="w-full mx-auto ">
         <h2 className=" font-bold text-[0.9rem] 400px:text-[1.1rem]">
           WEB DEVELOPER & UX DESIGNER
         </h2>
-        <h1 className="text-[3.2rem] transition-all duration-300 400px:text-[4rem] font-extrabold font-oswald ">
+        <h1 className="text-[3.2rem] transition-all duration-300 400px:text-[4rem] font-extrabold  ">
           {text}
         </h1>
         <h4 className="text-[0.9rem] 400px:text-[1.1rem]">

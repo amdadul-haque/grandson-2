@@ -47,8 +47,9 @@ const ContactUs = () => {
 
   return (
     <div
+      id="contactus"
       ref={ref}
-      className="bg-[#000000] w-full mx-auto flex justify-between font-oswald items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6"
+      className="bg-[#000000] w-full mx-auto flex justify-between  items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6"
     >
       {/* <div className="text-[#fff] w-[50%] text-center ">
         <h1 className="font-extrabold text-[1.5rem] mb-6">

@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import SplashScreen from "@/components/SplashScreen";
+import { poppins } from "@/fonts";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -31,7 +32,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="overflow-hidden">
+      <main className={`overflow-hidden ${poppins.className}`}>
         <>
           <SplashScreen
             isLoading={isLoading}
@@ -50,18 +51,28 @@ export default function Home() {
             color="0, 189, 233"
             outerAlpha={0.2}
             innerStyle={{
-              backgroundColor: "rgb(0, 189, 233)",
+              backgroundColor: "rgb(212, 20, 90)",
 
               borderRadius: "50%",
               width: "50%",
             }}
+            // outerStyle={{
+            //   backgroundColor: "transparent",
+            //   border: "2px solid transparent", // Set the border width
+            //   borderImage: "linear-gradient(to right, rgb(247, 147, 30), rgb(212, 20,  90)) 1", // Define the gradient
+            //   borderImageSlice: 1, // Border image slice value
+            //   padding: "20px",
+            //   borderRadius: "50%",
+            //   width: "100px",
+            // }}
             outerStyle={{
               backgroundColor: "transparent",
-              border: "2px solid rgb(0, 189, 233)",
+              border: "2px solid rgb(212, 20, 90)",
               padding: "20px",
               borderRadius: "50%",
               width: "100px",
             }}
+            
             showSystemCursor={true}
             innerScale={0.7}
             outerScale={5}
