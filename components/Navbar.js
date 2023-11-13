@@ -30,7 +30,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`w-full ${window.scrollY > 60 && 'bg-[#151515]'} py-2 fixed`}>
+    // <nav className={`w-full ${window.scrollY > 60 && 'bg-[#151515]'} py-2 fixed`}>
+    <nav className={`w-full ${typeof window !== 'undefined' && window.scrollY > 60 && 'bg-[#151515]'} py-2 fixed`}>
       <nav className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
         <a href="#hero">
           <img src="/assets/images/logo.png" alt="logo" className="h-[60px]" />
