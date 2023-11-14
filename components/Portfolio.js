@@ -69,34 +69,10 @@ const Portfolio = () => {
 
         <motion.div
           animate={rightAnimation}
-          className="grid 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
-
-          {/* <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-1.jpg"
-            alt="img"
-          />
-          <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-2.jpg"
-            alt="img"
-          />
-          <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-3.gif"
-            alt="img"
-          />
-          <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-4.jpg"
-            alt="img"
-          />
-          <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-5.jpg"
-            alt="img"
-          />
-          <img
-            src="https://html.dynamiclayers.net/it/alison/img/prtf-6.jpg"
-            alt="img"
-          /> */}
+          className="grid grid-rows-2 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
           {
             Array.from(Array(6)).map((_, i) => {
+              const borderColors = ["border-[#f16464]", "border-[#f1c40f]", "border-[#2ecc71]", "border-[#3498db]", "border-[#9b59b6]", "border-[#e67e22]"];
               if (i === 2) {
                 return (
                   <img
@@ -107,14 +83,16 @@ const Portfolio = () => {
                 )
               }
               return (
-                // <div className="h-full w-full bg-fuchsia-500 relative">
-                <img
-                  key={i}
-                  src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.jpg`}
-                  alt="img"
-                // className="absolute inset-0 w-full h-full object-cover"
-                />
-                // </div>
+                <div className="w-full relative group transition duration-300 overflow-hidden">
+                  <img
+                    key={i}
+                    src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.jpg`}
+                    alt="img"
+                    className="absolute w-full h-full object-cover group-hover:scale-105 overflow-hidden transition-all duration-300"
+                  />
+                  <div className={`absolute h-full w-full ${borderColors[i]} border-[50px] group-hover:border-0 transition-border duration-500`}>
+                  </div>
+                </div>
               )
             })
           }

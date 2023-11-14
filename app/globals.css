@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 /* navbar hover effect */
 .navBar ul li {
   position: relative;
@@ -50,7 +54,8 @@
   position: fixed;
   width: 100%;
   height: 50vh;
-  background: #000000; /* Dark background as per your screenshot */
+  background: #000000;
+  /* Dark background as per your screenshot */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,9 +94,10 @@
 }
 
 .progress-bar-background {
-  width: 30%; /* Control the width of the progress bar */
-  height: 2px;
-  background-color: #ffffff44; /* Light grey background for the progress bar */
+  width: 30%;
+  height: 1px;
+  /* background-color: #ffffff44; */
+  background-color: transparent;
   position: relative;
   transition: all 0.2s ease-in-out;
 }
@@ -103,10 +109,12 @@
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.1;
   }

@@ -8,6 +8,8 @@ import {
   FaInstagram,
   FaPinterestP,
   FaBehance,
+  FaYoutube,
+  FaMailBulk,
 } from "react-icons/fa";
 
 // frammer motion
@@ -30,6 +32,8 @@ const Hero = () => {
     }
   }, [index]);
 
+  const linkIconStyle = " text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer";
+
   return (
     <div id="hero" className="w-full bg-hero bg-center bg-gray-800 h-[100vh] text-white flex items-center justify-center text-center">
       <div className="w-full mx-auto ">
@@ -44,11 +48,18 @@ const Hero = () => {
           <p>Turning your dreams into reality.</p>
         </h4>
         <div className="flex items-center gap-6 pt-8 400px:pt-16 mx-auto w-full justify-center">
-          <FaFacebookF className=" text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer" />
-          <FaTwitter className=" text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer" />
-          <FaInstagram className=" text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer" />
-          <FaPinterestP className=" text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer" />
-          <FaBehance className=" text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer" />
+          <a href="https://www.facebook.com/grandson.pro">
+            <FaFacebookF className={linkIconStyle} />
+          </a>
+          <a href="https://www.youtube.com/channel/UCSNzXIb_cUK3J1Ug92UyDfQ">
+            <FaYoutube className={linkIconStyle} />
+          </a>
+          <a href="https://www.instagram.com/grandsondasein/">
+            <FaInstagram className={linkIconStyle} />
+          </a>
+          <a href="mailto:hello@grandson.pro">
+            <FaMailBulk className={linkIconStyle} />
+          </a>
         </div>
       </div>
     </div>

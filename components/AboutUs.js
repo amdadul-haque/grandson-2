@@ -47,12 +47,13 @@ const AboutUs = () => {
   }, [inView]);
 
   return (
-    <div className="w-full bg-[#050505] ">
+    <div 
+    id="aboutus"
+    className="w-full bg-[#050505] py-[100px]">
 
       <div
-        id="aboutus"
         ref={ref}
-        className="w-full max-w-[1320px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between  items-center 1040px:flex-row flex-col 1040px:py-0 py-12 gap-16">
+        className="w-full max-w-[1320px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between  items-center 1040px:flex-row flex-col 1040px:py-0 gap-16">
         <motion.div animate={leftAnimation} className="text-[#fff] w-full">
           <h1 className="400px:text-[2rem] text-[1.5rem] font-bold ">ABOUT US</h1>
           <p className="400px:my-10 my-6 text-[0.8rem]  400px:text-[1rem] ">
