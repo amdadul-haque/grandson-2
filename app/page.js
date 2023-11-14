@@ -1,6 +1,7 @@
 "use client";
 import AboutUs from "@/components/AboutUs";
 import ContactUs from "@/components/ContactUs";
+import FacebookMsg from "@/components/FacebookMsg";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -72,7 +73,7 @@ export default function Home() {
               borderRadius: "50%",
               width: "100px",
             }}
-            
+
             showSystemCursor={true}
             innerScale={0.7}
             outerScale={5}
@@ -92,6 +93,7 @@ export default function Home() {
             ]}
           />
         </>
+        <FacebookMsg />
       </main>
     </>
   );

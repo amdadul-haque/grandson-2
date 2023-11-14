@@ -82,7 +82,7 @@ const Portfolio = () => {
     <div id="portfolio" className="bg-black w-full ">
       <div
         ref={ref}
-        className="bg-[#000000] max-w-[1320px] mx-auto flex justify-between  1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
+        className="w-full max-w-[1320px] mx-auto flex justify-between  1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
 
         <motion.div
           animate={leftAnimation}
@@ -102,8 +102,8 @@ const Portfolio = () => {
 
         <motion.div
           animate={rightAnimation}
-          className="w-[95%] mx-auto h-full grid md:grid-rows-2 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
-          
+          className="w-[95%] mx-auto h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  lg:w-[65%]">
+
           {
             portfolios.map((portfolio) => (
               <div
