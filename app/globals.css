@@ -96,7 +96,7 @@
 .progress-bar-background {
   width: 30%;
   height: 1px;
-  /* background-color: #ffffff44; */
+  background-color: #555;
   background-color: transparent;
   position: relative;
   transition: all 0.2s ease-in-out;

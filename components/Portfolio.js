@@ -45,6 +45,39 @@ const Portfolio = () => {
     }
   }, [inView]);
 
+  const portfolios = [
+    {
+      id: 1,
+      img: "/assets/images/portfolio/1.jpg",
+      color: "border-[#f16464]",
+    },
+    {
+      id: 2,
+      img: "/assets/images/portfolio/2.jpg",
+      color: "border-[#f1c40f]",
+    },
+    {
+      id: 3,
+      img: "/assets/images/portfolio/3.jpg",
+      color: "border-[#2ecc71]",
+    },
+    {
+      id: 4,
+      img: "/assets/images/portfolio/4.jpg",
+      color: "border-[#3498db]",
+    },
+    {
+      id: 5,
+      img: "/assets/images/portfolio/5.jpg",
+      color: "border-[#9b59b6]",
+    },
+    {
+      id: 6,
+      img: "/assets/images/portfolio/6.jpg",
+      color: "border-[#e67e22]",
+    },
+  ];
+
   return (
     <div id="portfolio" className="bg-black w-full ">
       <div
@@ -69,32 +102,23 @@ const Portfolio = () => {
 
         <motion.div
           animate={rightAnimation}
-          className="grid grid-rows-2 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
+          className="w-[95%] mx-auto h-full grid md:grid-rows-2 400px:grid-cols-3 grid-cols-1  1040px:grid-cols-3 1040px:w-[65%]">
+          
           {
-            Array.from(Array(6)).map((_, i) => {
-              const borderColors = ["border-[#f16464]", "border-[#f1c40f]", "border-[#2ecc71]", "border-[#3498db]", "border-[#9b59b6]", "border-[#e67e22]"];
-              if (i === 2) {
-                return (
-                  <img
-                    key={i}
-                    src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.gif`}
-                    alt="img"
-                  />
-                )
-              }
-              return (
-                <div className="w-full relative group transition duration-300 overflow-hidden">
-                  <img
-                    key={i}
-                    src={`https://html.dynamiclayers.net/it/alison/img/prtf-${i + 1}.jpg`}
-                    alt="img"
-                    className="absolute w-full h-full object-cover group-hover:scale-105 overflow-hidden transition-all duration-300"
-                  />
-                  <div className={`absolute h-full w-full ${borderColors[i]} border-[50px] group-hover:border-0 transition-border duration-500`}>
-                  </div>
+            portfolios.map((portfolio) => (
+              <div
+                key={portfolio.id}
+                className="w-full h-[280px] relative group transition duration-300 overflow-hidden">
+                <img
+                  src={portfolio.img}
+                  alt="img"
+                  className="absolute w-full h-full object-cover group-hover:scale-110 overflow-hidden transition-all duration-300"
+                />
+                <div className={`absolute h-full w-full ${portfolio.color} border-[50px] group-hover:border-0 transition-border duration-500`}>
                 </div>
-              )
-            })
+                <h2>{portfolio.color}</h2>
+              </div>
+            ))
           }
         </motion.div>
       </div >

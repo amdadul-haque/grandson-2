@@ -48,13 +48,13 @@ const Hero = () => {
           <p>Turning your dreams into reality.</p>
         </h4>
         <div className="flex items-center gap-6 pt-8 400px:pt-16 mx-auto w-full justify-center">
-          <a href="https://www.facebook.com/grandson.pro">
+          <a href="https://www.facebook.com/grandson.pro" target="_blank">
             <FaFacebookF className={linkIconStyle} />
           </a>
-          <a href="https://www.youtube.com/channel/UCSNzXIb_cUK3J1Ug92UyDfQ">
+          <a href="https://www.youtube.com/channel/UCSNzXIb_cUK3J1Ug92UyDfQ" target="_blank">
             <FaYoutube className={linkIconStyle} />
           </a>
-          <a href="https://www.instagram.com/grandsondasein/">
+          <a href="https://www.instagram.com/grandsondasein/" target="_blank">
             <FaInstagram className={linkIconStyle} />
           </a>
           <a href="mailto:hello@grandson.pro">
