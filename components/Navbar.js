@@ -33,16 +33,21 @@ const Navbar = () => {
 
   return (
     // <nav className={`w-full ${typeof window !== 'undefined' && scrolY > 60 && 'bg-[#151515]'} px-3 lg:px-0 py-2 fixed z-100`}>
-    <nav className={`w-full bg-[#151515] px-3 lg:px-0 py-2 fixed `}
-      style={{ zIndex: 1000 }}
+    <nav className={`w-full fixed `}
+      style={{ zIndex: 49 }}
     >
+      <motion.div className="absolute z-0 w-full h-16 bg-[#151515]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: scrolY > 60 ? 1 : 0 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
+      ></motion.div>
       <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
-        <a href="#hero">
+        <a href="#hero" className="z-10">
           <img src="/assets/images/logo.png" alt="logo" className="h-[70px]" />
         </a>
 
         <div
-          className="sm:hidden cursor-pointer"
+          className="sm:hidden cursor-pointer z-10 mr-2"
           onClick={toggleMobileMenu}
         >
           <AiOutlineMenu className="text-[25px]" />
