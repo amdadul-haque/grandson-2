@@ -41,9 +41,9 @@ export default function Home() {
           />
           <Navbar />
           <Hero />
-          <AboutUs />
           <Services />
           <Portfolio />
+          <AboutUs />
           <ContactUs />
           <Footer />
           <AnimatedCursor

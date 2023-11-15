@@ -102,7 +102,9 @@ const Portfolio = () => {
 
         <motion.div
           animate={rightAnimation}
-          className="w-[95%] mx-auto h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  lg:w-[65%]">
+          className="w-[95%] mx-auto h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  lg:w-[65%] "
+          style={{zIndex: 1}}
+          >
 
           {
             portfolios.map((portfolio) => (

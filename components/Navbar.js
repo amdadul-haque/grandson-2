@@ -32,9 +32,11 @@ const Navbar = () => {
 
 
   return (
-    // <nav className={`w-full ${window.scrollY > 60 && 'bg-[#151515]'} py-2 fixed`}>
-    <nav className={`w-full ${typeof window !== 'undefined' && scrolY > 60 && 'bg-[#151515]'} px-3 lg:px-0 py-2 fixed z-100`}>
-      <nav className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
+    // <nav className={`w-full ${typeof window !== 'undefined' && scrolY > 60 && 'bg-[#151515]'} px-3 lg:px-0 py-2 fixed z-100`}>
+    <nav className={`w-full bg-[#151515] px-3 lg:px-0 py-2 fixed `}
+      style={{ zIndex: 1000 }}
+    >
+      <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
         <a href="#hero">
           <img src="/assets/images/logo.png" alt="logo" className="h-[70px]" />
         </a>
@@ -56,20 +58,17 @@ const Navbar = () => {
             </li>
           </a>
 
+          <a href="#services">
+            <li className="cursor-pointer flex items-center gap-2 group">
+              <p>Services</p>
+              <span>Services</span>
+            </li>
+          </a>
+
           <a href="#portfolio">
             <li className="cursor-pointer flex items-center gap-2 group">
               <p>Portfolio</p>
               <span>Portfolio</span>
-              {/* <BsChevronDown className="text-[#fff] 1040px:text-[1rem]" />
-            <div className="megamenu opacity-0 fixed top-[7%] w-[300px] right-[10%] bg-[#000] group-hover:opacity-100 transition-all duration-300 invisible group-hover:visible group-hover:translate-y-0 translate-y-[100px]">
-              <ul className="p-6">
-                <li>portfolio</li>
-                <li>portfolio</li>
-                <li>portfolio</li>
-                <li>portfolio</li>
-                <li>portfolio</li>
-              </ul>
-            </div> */}
             </li>
           </a>
 
@@ -80,24 +79,6 @@ const Navbar = () => {
             </li>
           </a>
 
-          <a href="#services">
-            <li className="cursor-pointer flex items-center gap-2 group">
-              <p>Services</p>
-              <span>Services</span>
-              {/* <BsChevronDown className="service text-[#fff] 1040px:text-[1rem]" />
-            <div className="megamenu opacity-0 fixed top-[7%] w-[300px] right-[3%] bg-[#000] group-hover:opacity-100 transition-all duration-300 invisible group-hover:visible group-hover:translate-y-0 translate-y-[100px]">
-              <ul className="p-6">
-                <li>Service</li>
-                <li>Service</li>
-                <li>Service</li>
-                <li>Service</li>
-                <li>Service</li>
-                <li>Service</li>
-              </ul>
-            </div> */}
-            </li>
-          </a>
-
           <a href="#contactus">
             <li className="cursor-pointer">
               <p>Contact</p>
@@ -105,7 +86,7 @@ const Navbar = () => {
             </li>
           </a>
         </motion.ul>
-      </nav>
+      </div>
     </nav >
   );
 };
