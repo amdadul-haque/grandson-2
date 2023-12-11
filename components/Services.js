@@ -14,6 +14,7 @@ import { useInView } from "react-intersection-observer";
 
 // frammer motion
 import { useAnimation, motion } from "framer-motion";
+import Image from "next/image";
 
 const Services = () => {
   // intersection observer
@@ -71,7 +72,7 @@ const Services = () => {
         animate={rightAnimation}
         className="grid grid-cols-1 400px:grid-cols-2 1040px:grid-cols-3 gap-8  1040px:pr-24">
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <SiVorondesign color="#f16464" className="text-[2.5rem]" />
+          <Image src="/icons/social_media.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">Social Media</h2>
           <p className="text-[0.8rem]">
             pomysły, które przyciągają uwagę i budują zaangażowanie. Pozwól
@@ -81,7 +82,7 @@ const Services = () => {
         </div>
 
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <FaReact color="#f16464" className="text-[2.5rem]" />
+          <Image src="/icons/digital.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">Digital</h2>
           <p className="text-[0.8rem]">
             strony internetowe, aplikacje, influencerzy. Zrealizujemy Twoje cele w
@@ -90,7 +91,7 @@ const Services = () => {
         </div>
 
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <TbWriting color="#f16464" className="text-[2.5rem]" />
+          <Image src="/icons/atlbtl.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">ATL i BTL</h2>
           <p className="text-[0.8rem]">
             kampanie w mediach masowych łączymy z bezpośrednimi działaniami
@@ -99,7 +100,7 @@ const Services = () => {
         </div>
 
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <CiMobile3 color="#f16464" className="text-[2.5rem]" />
+          <Image src="/icons/planowanie.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">Planowanie mediów</h2>
           <p className="text-[0.8rem]">
             skuteczne strategie zagwarantują efektywną promocję Twoich
@@ -108,7 +109,7 @@ const Services = () => {
         </div>
 
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <PiBicycleLight color="#f16464" className="text-[2.5rem]" />
+          <Image src="/icons/szkolenia.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">Szkolenia medialne</h2>
           <p className="text-[0.8rem]">
             wspólnie z doświadczonymi dziennikarzami realizujemy
@@ -118,7 +119,7 @@ const Services = () => {
         </div>
 
         <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <SiSimpleanalytics color="#f16464" className="text-[2rem]" />
+          <Image src="/icons/video.png" width={40} height={40} />
           <h2 className="my-3 font-extrabold">Produkcja Video</h2>
           <p className="text-[0.8rem]">
             od animowanych explainerów, przez produkcje telewizyjne, po
