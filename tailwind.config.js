@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: 'url("/assets/images/hero.jpg")',
+        // hero: 'url("/assets/images/hero.mp4")',
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],

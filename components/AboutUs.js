@@ -48,21 +48,20 @@ const AboutUs = () => {
 
   return (
     <div 
-    id="aboutus"
+    id="team"
     className="w-full bg-[#050505] py-[100px]">
 
       <div
         ref={ref}
         className="w-full max-w-[1320px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between  items-center 1040px:flex-row flex-col 1040px:py-0 gap-16">
         <motion.div animate={leftAnimation} className="text-[#fff] w-full">
-          <h1 className="400px:text-[2rem] text-[1.5rem] font-bold ">ABOUT US</h1>
+          <h1 className="400px:text-[2rem] text-[1.5rem] font-bold ">Team</h1>
           <p className="400px:my-10 my-6 text-[0.8rem]  400px:text-[1rem] ">
             Maciej Łuczyński i Bartłomiej Wasilewski to absolwenci Wydziału Organizacji Produkcji Filmowej i Telewizyjnej w Łódzkiej Szkole Filmowej (PWSFTiTV w Łodzi). Wieloletni producenci treści audiowizualnych w grupach medialnych TVP S.A. oraz ZPR Media S.A. Współpracowali z takimi markami jak: Bugatti, Eska, Gerda, Itaka, KIA, Mentos, Pocztex, Polsat, Redbull, Teatr Ateneum, Teatr Polski, Teatr Studio, Warszawska Opera Kameralna, WWF czy Zamek Królewski w Warszawie.
           </p>
-
           <a href="#services">
             <button className="400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] text-[0.8rem] font-bold hover:bg-[#f16464] transition-colors duration-300">
-              SEE OUR WORKS
+            nasz zespół
             </button>
           </a>
         </motion.div>

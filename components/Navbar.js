@@ -42,8 +42,8 @@ const Navbar = () => {
         transition={{ ease: "easeOut", duration: 0.5 }}
       ></motion.div>
       <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
-        <a href="#hero" className="z-10">
-          <img src="/assets/images/logo.png" alt="logo" className="h-[70px]" />
+        <a href="#hero" className="z-10 flex h-full items-center">
+          <img src="/assets/images/upper_left_corner.png" alt="logo" className="h-[50px] my-2" />
         </a>
 
         <div
@@ -56,38 +56,38 @@ const Navbar = () => {
           className={`${isMobileMenuOpen ? 'flex flex-col' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0  bg-white md:bg-transparent text-black md:text-white md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
           animate={{ opacity: isMobileMenuOpen ? 1 : 0, height: isMobileMenuOpen ? 'auto' : 0, display: isMobileMenuOpen ? 'flex' : 'none' }}
         >
-          <a href="#hero">
+          <a href="#start">
             <li className="cursor-pointer">
-              <p>Home</p>
-              <span>Home</span>
+              <p>Start</p>
+              <span>Start</span>
             </li>
           </a>
 
-          <a href="#services">
+          <a href="#oferta">
             <li className="cursor-pointer flex items-center gap-2 group">
-              <p>Services</p>
-              <span>Services</span>
+              <p>Oferta</p>
+              <span>Oferta</span>
             </li>
           </a>
 
-          <a href="#portfolio">
+          <a href="#casestudies">
             <li className="cursor-pointer flex items-center gap-2 group">
-              <p>Portfolio</p>
-              <span>Portfolio</span>
+              <p>Case Studies</p>
+              <span>Case Studies</span>
             </li>
           </a>
 
-          <a href="#aboutus">
+          <a href="#team">
             <li className="cursor-pointer">
-              <p>About</p>
-              <span>About</span>
+              <p>Team</p>
+              <span>Team</span>
             </li>
           </a>
 
-          <a href="#contactus">
+          <a href="#kontakt">
             <li className="cursor-pointer">
-              <p>Contact</p>
-              <span>Contact</span>
+              <p>Kontakt</p>
+              <span>Kontakt</span>
             </li>
           </a>
         </motion.ul>

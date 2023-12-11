@@ -47,7 +47,7 @@ const ContactUs = () => {
 
   return (
     <div
-      id="contactus"
+      id="kontakt"
       ref={ref}
       className="bg-[#000000] w-full mx-auto flex justify-between  items-center flex-col gap-16 py-12 1040px:py-24 1040px:px-0 400px:px-12 px-6"
     >
@@ -63,7 +63,8 @@ const ContactUs = () => {
 
       <motion.div animate={animation} className="text-[#fff] 1040px:w-[50%]">
         <h1 className="font-extrabold text-[1rem] 400px:text-[1.5rem] mb-6">
-          LET'S WORK TOGETHER PROJECTS JUST SEND ME EMAIL HERE
+          Masz pomysł na kreatywną kampanię lub szukasz inspiracji?
+          Połączmy siły i stwórzmy coś wyjątkowego!
         </h1>
         <form>
           <div className="flex items-center gap-8 1040px:flex-row 400px:flex-row flex-col">

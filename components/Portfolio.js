@@ -48,38 +48,50 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      img: "/assets/images/portfolio/1.jpg",
+      img: "/assets/images/case-studies/pocztex2.png",
       color: "border-[#f16464]",
+      text: `Wakacyjna trasa kin plenerowych zrealizowana dla <b>Pocztex.</b>`
     },
     {
       id: 2,
-      img: "/assets/images/portfolio/2.jpg",
+      img: "/assets/images/case-studies/fundacja_dziedzictwo_przyrodnicze.png",
       color: "border-[#f1c40f]",
+      text: `Kampania „Lasy, Bagna i Drzewa – dla czystego powietrza Małopolski” dla
+      <b>Fundacji Dziedzictwo Przyrodnicze </b>`
     },
     {
       id: 3,
-      img: "/assets/images/portfolio/3.jpg",
+      img: "/assets/images/case-studies/Izby_gospodarczej_energetyki.png",
       color: "border-[#2ecc71]",
+      text: `Realizacja gali jubileuszowej 30-lecia <b>Izby Gospodarczej Energetyki i
+      Ochrony Środowiska</b>`
     },
     {
       id: 4,
-      img: "/assets/images/portfolio/4.jpg",
+      img: "/assets/images/case-studies/lewiatan.png",
       color: "border-[#3498db]",
+      text: `Seria szkoleń medialnych realizowanych dla konfederacji <b>Lewiatan.</b>`
     },
     {
       id: 5,
-      img: "/assets/images/portfolio/5.jpg",
+      img: "/assets/images/case-studies/Zamku_Krolewskiego.png",
       color: "border-[#9b59b6]",
+      text: `Produkcja kampanii video „Jubileusz 50-lecia Odbudowy” dla <b>Zamku
+      Królewskiego w Warszawie</b>
+      `
     },
     {
       id: 6,
-      img: "/assets/images/portfolio/6.jpg",
+      img: "/assets/images/case-studies/hotelmania.png",
       color: "border-[#e67e22]",
+      text: `Realizacja akcji autopromocyjnej dla „WorldTour International by <b>Hotelmania</b>”
+      – spoty, transmisje z wydarzeń, relacje z Japonii oraz Grecji
+      `
     },
   ];
 
   return (
-    <div id="portfolio" className="bg-black w-full ">
+    <div id="casestudies" className="bg-black w-full ">
       <div
         ref={ref}
         className="w-full max-w-[1320px] mx-auto flex justify-between  1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
@@ -88,24 +100,19 @@ const Portfolio = () => {
           animate={leftAnimation}
           className="text-[#fff] 1040px:px-0 400px:px-12 px-6 1040px:pl-24 1040px:w-[35%] 1040px:text-start text-center">
           <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">
-            PORTFOLIO
+            Case Studies
           </h1>
           <p className="my-5 text-[0.8rem] 400px:text-[1rem]">
-            I’m a Creative Designer and I make things work.
-            <br />
-            Turning your dreams into reality.
+            Poznaj nasze realizacje. Niech staną się inspiracją dla nowych, innowacyjnych
+            pomysłów.
           </p>
-          <button className="400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] text-[0.8rem] font-bold hover:bg-[#f16464] transition-colors duration-300">
-            OUR ALL WORKS
-          </button>
         </motion.div>
 
         <motion.div
           animate={rightAnimation}
-          className="w-[95%] mx-auto h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  lg:w-[65%] "
-          style={{zIndex: 1}}
-          >
-
+          className="w-[95%] mx-auto h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:w-[65%] "
+          style={{ zIndex: 1 }}
+        >
           {
             portfolios.map((portfolio) => (
               <div
@@ -119,6 +126,9 @@ const Portfolio = () => {
                 <div className={`absolute h-full w-full ${portfolio.color} border-[50px] group-hover:border-0 transition-border duration-500`}>
                 </div>
                 <h2>{portfolio.color}</h2>
+                <div className="h-full w-full -mt-[25px] px-6 bg-white opacity-60 hidden group-hover:flex justify-center items-center">
+                  <p dangerouslySetInnerHTML={{ __html: portfolio.text }} />
+                </div>
               </div>
             ))
           }
