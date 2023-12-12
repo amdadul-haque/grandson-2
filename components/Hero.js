@@ -38,9 +38,19 @@ const Hero = () => {
   const linkIconStyle = " text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer";
   return (
     <div id="start" className="w-full bg-hero bg-center bg-gray-800 h-[100vh] text-white flex items-center justify-center text-center">
-      <div className="w-full mx-auto ">
+      <div className="absolute top-0 left-0 w-full h-[100vh] z-0">
+        <video
+          // controls
+          autoPlay
+          loop
+          className="opacity-80 w-full h-full object-cover"
+        >
+          <source src="/assets/images/hero.mp4" type="video/mp4"></source>
+        </video>
+      </div>
+      <div className="w-full mx-auto z-10">
         <h2 className=" font-bold text-[0.9rem] 400px:text-[1.1rem]">
-        AGENCJA MARKETINGOWA 360
+          AGENCJA MARKETINGOWA 360
         </h2>
         <h1 className="text-[3.2rem] transition-all duration-300 400px:text-[4rem] font-extrabold  ">
           {text}
@@ -63,7 +73,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
