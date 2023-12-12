@@ -43,7 +43,7 @@ const Hero = () => {
           // controls
           autoPlay
           loop
-          className="opacity-80 w-full h-full object-cover"
+          className="opacity-100 w-full h-full object-cover"
         >
           <source src="/assets/images/hero.mp4" type="video/mp4"></source>
         </video>
