@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 // react icons
 import {
@@ -35,14 +35,23 @@ const Hero = () => {
     }
   }, [index]);
 
+
+  const videoRef = useRef();
+
+  useEffect(() => {
+    videoRef.current.play();
+  }, []);
+
+
   const linkIconStyle = " text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer";
   return (
     <div id="start" className="w-full bg-hero bg-center bg-gray-800 h-[100vh] text-white flex items-center justify-center text-center">
       <div className="absolute top-0 left-0 w-full h-[100vh] z-0">
         <video
-          // controls
-          autoPlay
+          ref={videoRef}
+          autoplay
           loop
+          muted
           className="opacity-100 w-full h-full object-cover"
         >
           <source src="/assets/images/hero.mp4" type="video/mp4"></source>
