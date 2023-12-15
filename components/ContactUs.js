@@ -87,7 +87,7 @@ const ContactUs = () => {
 
       <motion.div animate={animation} className="text-[#fff] w-full max-w-[1000px]">
         <h1 className="font-extrabold text-[1rem] 400px:text-[1.5rem] mb-6">
-          Masz pomysł na kreatywną kampanię lub szukasz inspiracji?
+          Masz pomysł na kreatywną kampanię lub szukasz inspiracji? <br />
           Połączmy siły i stwórzmy coś wyjątkowego!
         </h1>
         <form onSubmit={handleButtonClick}>
@@ -119,8 +119,7 @@ const ContactUs = () => {
               id="message"
               cols="30"
               placeholder="Wiadomość"
-              className="w-full mt-8 text-[0.8rem] 400px:text-[1rem] p-2 h-[120px] bg-[#000] border border-[#464545] text-[#fff] outline-none"
-              rows="20"
+              className="w-full mt-8 text-[0.8rem] 400px:text-[1rem] p-2 h-[220px] bg-[#000] border border-[#464545] text-[#fff] outline-none"
               // required
               value={message}
               onChange={(e) => setMessage(e.target.value)}

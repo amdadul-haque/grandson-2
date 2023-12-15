@@ -12,6 +12,7 @@ export async function POST(request) {
       // secure: true,
       auth: {
         user: 'amdadul1807107@gmail.com',
+        // user: 'hello@grandson.media',
         pass: 'wzhujflleuttdcyp',
         // user: process.env.NODEMAILER_EMAIL,
         // pass: process.env.NODEMAILER_PW,
@@ -23,9 +24,7 @@ export async function POST(request) {
     const mailOption = {
       from: fromMail,
       to: "hello@grandson.media",
-      // to: "J.mindfuse@outlook.com",
       // to: "haque1807107@stud.kuet.ac.bd",
-      // to: process.env.NODEMAILER_EMAIL,
       subject: `${name} is looking for you.`,
       html: `
         <h3>You have a new message from ${fromMail}</h3>
