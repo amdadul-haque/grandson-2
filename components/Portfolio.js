@@ -48,45 +48,50 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      img: "/assets/images/case-studies/pocztex2.png",
+      img: "/images/case-studies/pocztex2.png",
       color: "border-[#f16464]",
-      text: `Wakacyjna trasa kin plenerowych zrealizowana dla <b>Pocztex.</b>`
+      text: `Wakacyjna trasa kin plenerowych zrealizowana dla <b>Pocztex.</b>`,
+      bg: "bg-[#f16464]"
     },
     {
       id: 2,
-      img: "/assets/images/case-studies/fundacja_dziedzictwo_przyrodnicze.png",
+      img: "/images/case-studies/fundacja_dziedzictwo_przyrodnicze.png",
       color: "border-[#f1c40f]",
       text: `Kampania „Lasy, Bagna i Drzewa – dla czystego powietrza Małopolski” dla
-      <b>Fundacji Dziedzictwo Przyrodnicze </b>`
+      <b>Fundacji Dziedzictwo Przyrodnicze </b>`,
+      bg: "bg-[#f1c40f]"
+
     },
     {
       id: 3,
-      img: "/assets/images/case-studies/Izby_gospodarczej_energetyki.png",
+      img: "/images/case-studies/Izby_gospodarczej_energetyki.png",
       color: "border-[#2ecc71]",
       text: `Realizacja gali jubileuszowej 30-lecia <b>Izby Gospodarczej Energetyki i
-      Ochrony Środowiska</b>`
+      Ochrony Środowiska</b>`,
+      bg: "bg-[#2ecc71]"
     },
     {
       id: 4,
-      img: "/assets/images/case-studies/lewiatan.png",
+      img: "/images/case-studies/lewiatan.png",
       color: "border-[#3498db]",
-      text: `Seria szkoleń medialnych realizowanych dla konfederacji <b>Lewiatan.</b>`
+      text: `Seria szkoleń medialnych realizowanych dla konfederacji <b>Lewiatan.</b>`,
+      bg: "bg-[#3498db]"
     },
     {
       id: 5,
-      img: "/assets/images/case-studies/Zamku_Krolewskiego.png",
+      img: "/images/case-studies/Zamku_Krolewskiego.png",
       color: "border-[#9b59b6]",
       text: `Produkcja kampanii video „Jubileusz 50-lecia Odbudowy” dla <b>Zamku
-      Królewskiego w Warszawie</b>
-      `
+      Królewskiego w Warszawie</b>`,
+      bg: "bg-[#9b59b6]"
     },
     {
       id: 6,
-      img: "/assets/images/case-studies/hotelmania.png",
+      img: "/images/case-studies/hotelmania.png",
       color: "border-[#e67e22]",
       text: `Realizacja akcji autopromocyjnej dla „WorldTour International by <b>Hotelmania</b>”
-      – spoty, transmisje z wydarzeń, relacje z Japonii oraz Grecji
-      `
+      – spoty, transmisje z wydarzeń, relacje z Japonii oraz Grecji`,
+      bg: "bg-[#e67e22]"
     },
   ];
 
@@ -94,11 +99,11 @@ const Portfolio = () => {
     <div id="casestudies" className="bg-black w-full ">
       <div
         ref={ref}
-        className="w-full max-w-[1320px] mx-auto flex justify-between  1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
+        className="w-full max-w-[1320px] mx-auto flex justify-between 1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
 
         <motion.div
           animate={leftAnimation}
-          className="text-[#fff] 1040px:px-0 400px:px-12 px-6 1040px:pl-24 1040px:w-[35%] 1040px:text-start text-center">
+          className="text-[#fff] 1040px:px-0 400px:px-12 px-6 1040px:w-[35%] 1040px:text-start text-center">
           <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">
             Case Studies
           </h1>
@@ -126,7 +131,7 @@ const Portfolio = () => {
                 <div className={`absolute h-full w-full ${portfolio.color} border-[50px] group-hover:border-0 transition-border duration-500`}>
                 </div>
                 <h2>{portfolio.color}</h2>
-                <div className="h-full w-full -mt-[25px] px-6 bg-white opacity-60 hidden group-hover:flex justify-center items-center">
+                <div className={`h-full w-full -mt-[25px] px-6 bg-white opacity-80 hidden group-hover:flex justify-center items-center`}>
                   <p dangerouslySetInnerHTML={{ __html: portfolio.text }} />
                 </div>
               </div>

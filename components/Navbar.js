@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     // <nav className={`w-full ${typeof window !== 'undefined' && scrolY > 60 && 'bg-[#151515]'} px-3 lg:px-0 py-2 fixed z-100`}>
-    <nav className={`w-full fixed `}
+    <nav className={`w-full fixed`}
       style={{ zIndex: 49 }}
     >
       <motion.div className="absolute z-0 w-full h-16 bg-[#151515]"
@@ -43,7 +43,7 @@ const Navbar = () => {
       ></motion.div>
       <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
         <a href="#hero" className="z-10 flex h-full items-center">
-          <img src="/assets/images/upper_left_corner.png" alt="logo" className="h-[50px] my-2" />
+          <img src="/images/upper_left_corner.png" alt="logo" className="h-[50px] ml-2 my-2" />
         </a>
 
         <div
@@ -53,7 +53,7 @@ const Navbar = () => {
           <AiOutlineMenu className="text-[25px]" />
         </div>
         <motion.ul
-          className={`${isMobileMenuOpen ? 'flex flex-col' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0  bg-white md:bg-transparent text-black md:text-white md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
+          className={`${isMobileMenuOpen ? 'flex flex-col' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0 bg-[#222] md:bg-transparent text-white md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
           animate={{ opacity: isMobileMenuOpen ? 1 : 0, height: isMobileMenuOpen ? 'auto' : 0, display: isMobileMenuOpen ? 'flex' : 'none' }}
         >
           <a href="#start">

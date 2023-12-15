@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: 'url("/assets/images/hero.jpg")',
-        // hero: 'url("/assets/images/hero.mp4")',
+        hero: 'url("/images/hero.png")',
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],

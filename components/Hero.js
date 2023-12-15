@@ -54,7 +54,7 @@ const Hero = () => {
           muted
           className="opacity-100 w-full h-full object-cover"
         >
-          <source src="/assets/images/hero.mp4" type="video/mp4"></source>
+          <source src="/images/hero.mp4" type="video/mp4"></source>
         </video>
       </div>
       <div className="w-full mx-auto z-10">

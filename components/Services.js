@@ -54,80 +54,76 @@ const Services = () => {
     }
   }, [inView]);
 
+
+  const services = [
+    {
+      icon: '/icons/social_media.png',
+      title: 'Social Media',
+      description:
+        'Pomysły, które przyciągają uwagę i budują zaangażowanie. Pozwól nam wzmocnić twoją obecność online poprzez unikatowe treści i niebanalne podejście.',
+    },
+    {
+      icon: '/icons/digital.png',
+      title: 'Digital',
+      description: 'Strony internetowe, aplikacje, influencerzy. Zrealizujemy Twoje cele w cyfrowym świecie.',
+    },
+    {
+      icon: '/icons/atlbtl.png',
+      title: 'ATL i BTL',
+      description:
+        'Kampanie w mediach masowych łączymy z bezpośrednimi działaniami BTL, zapewniając szeroki zasięg i personalizowany kontakt z marką.',
+    },
+    {
+      icon: '/icons/planowanie.png',
+      title: 'Planowanie mediów',
+      description: 'Skuteczne strategie zagwarantują efektywną promocję Twoich produktów.',
+    },
+    {
+      icon: '/icons/szkolenia.png',
+      title: 'Szkolenia medialne',
+      description:
+        'Wspólnie z doświadczonymi dziennikarzami realizujemy skuteczną edukację z zakresu strategii komunikacyjnych, mediów społecznościowych oraz umiejętności publicznego występowania.',
+    },
+    {
+      icon: '/icons/video.png',
+      title: 'Produkcja Video',
+      description:
+        'Od animowanych explainerów, przez produkcje telewizyjne, po pełnometrażowe dokumenty. Zapewniamy sprawny przebieg działań od developmentu, aż po postprodukcję.',
+    },
+  ];
+
   return (
-    <div
-      id="oferta"
-      ref={ref}
-      className="flex items-center  justify-between w-full mx-auto bg-hero gap-12 1040px:px-0 400px:px-12 px-6 bg-center py-12 1040px:flex-row flex-col 1040px:py-24">
-      <motion.div
-        animate={leftAnimation}
-        className="text-[#fff] 1040px:pl-24 1040px:text-start text-center 1040px:w-[60%]">
-        <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">Oferta</h1>
-        <p className="mt-4 400px:text-[1rem] text-[0.8rem]">
-          Kreatywne rozwiązania dla Twojej marki.
-        </p>
-      </motion.div>
-
-      <motion.div
-        animate={rightAnimation}
-        className="grid grid-cols-1 400px:grid-cols-2 1040px:grid-cols-3 gap-8  1040px:pr-24">
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/social_media.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">Social Media</h2>
-          <p className="text-[0.8rem]">
-            pomysły, które przyciągają uwagę i budują zaangażowanie. Pozwól
-            nam wzmocnić twoją obecność online poprzez unikatowe treści i niebanalne
-            podejście.
+    <div className="w-full  bg-hero bg-no-repeat bg-cover bg-center">
+      <div
+        id="oferta"
+        ref={ref}
+        className=" w-full max-w-[1320px] mx-auto gap-12 px-4 1040px:px-0 py-12 flex flex-col items-center justify-between 1040px:flex-row 1040px:py-24">
+        <motion.div
+          animate={leftAnimation}
+          className="text-[#fff] 1040px:text-start text-center 1040px:w-[60%]">
+          <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">Oferta</h1>
+          <p className="mt-4 400px:text-[1rem] text-[0.8rem]">
+            Kreatywne rozwiązania dla Twojej marki.
           </p>
-        </div>
+        </motion.div>
 
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/digital.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">Digital</h2>
-          <p className="text-[0.8rem]">
-            strony internetowe, aplikacje, influencerzy. Zrealizujemy Twoje cele w
-            cyfrowym świecie.
-          </p>
-        </div>
+        <motion.div
+          animate={rightAnimation}
+          className="grid grid-cols-1 400px:grid-cols-2 1040px:grid-cols-3 gap-4 sm:gap-8">
 
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/atlbtl.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">ATL i BTL</h2>
-          <p className="text-[0.8rem]">
-            kampanie w mediach masowych łączymy z bezpośrednimi działaniami
-            BTL, zapewniając szeroki zasięg i personalizowany kontakt z marką.
-          </p>
-        </div>
-
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/planowanie.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">Planowanie mediów</h2>
-          <p className="text-[0.8rem]">
-            skuteczne strategie zagwarantują efektywną promocję Twoich
-            produktów.
-          </p>
-        </div>
-
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/szkolenia.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">Szkolenia medialne</h2>
-          <p className="text-[0.8rem]">
-            wspólnie z doświadczonymi dziennikarzami realizujemy
-            skuteczną edukację z zakresu strategii komunikacyjnych, mediów
-            społecznościowych oraz umiejętności publicznego występowania.
-          </p>
-        </div>
-
-        <div className="bg-[#36363856] transition-colors duration-300  hover:bg-[#464647] p-6 text-[#ffff]">
-          <Image src="/icons/video.png" width={40} height={40} />
-          <h2 className="my-3 font-extrabold">Produkcja Video</h2>
-          <p className="text-[0.8rem]">
-            od animowanych explainerów, przez produkcje telewizyjne, po
-            pełnometrażowe dokumenty. Zapewniamy sprawny przebieg działań od
-            developmentu, aż po postprodukcję.
-          </p>
-        </div>
-      </motion.div>
+          {services.map((service, index) => (
+            <motion.div
+              key={index}
+              className="bg-[#36363856] transition-colors duration-300 hover:bg-[#464647] p-3 py-4 sm:p-6 text-[#ffff]"
+            >
+              <Image src={service.icon} width={40} height={40} />
+              <h2 className="my-3 font-extrabold">{service.title}</h2>
+              <p className="text-[0.8rem]">{service.description}</p>
+            </motion.div>
+          ))}
+          
+        </motion.div>
+      </div>
     </div>
   );
 };

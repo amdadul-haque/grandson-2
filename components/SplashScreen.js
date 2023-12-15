@@ -29,7 +29,7 @@ const SplashScreen = ({ finishLoading, isLoading }) => {
         className={`${!isLoading && "opacity-0 invisible"
           } transition-all duration-300 loading-info`}>
         {/* <p className="loading-text ">LOADING</p> */}
-        <img src="/assets/images/logo-symbol.png" alt="logo" className="loading-text max-w-[200px]" />
+        <img src="/images/logo-symbol.png" alt="logo" className="loading-text max-w-[200px]" />
         <div className={`${!isLoading && "!w-[100%]"} progress-bar-background`}>
           <div
             // className="h-[100%] transition-all duration-1000 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"

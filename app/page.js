@@ -57,15 +57,6 @@ export default function Home() {
               borderRadius: "50%",
               width: "50%",
             }}
-            // outerStyle={{
-            //   backgroundColor: "transparent",
-            //   border: "2px solid transparent", // Set the border width
-            //   borderImage: "linear-gradient(to right, rgb(247, 147, 30), rgb(212, 20,  90)) 1", // Define the gradient
-            //   borderImageSlice: 1, // Border image slice value
-            //   padding: "20px",
-            //   borderRadius: "50%",
-            //   width: "100px",
-            // }}
             outerStyle={{
               backgroundColor: "transparent",
               border: "2px solid rgb(212, 20, 90)",
@@ -95,6 +86,7 @@ export default function Home() {
         </>
         <FacebookMsg />
       </main>
+      
     </>
   );
 }
