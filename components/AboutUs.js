@@ -54,13 +54,13 @@ const AboutUs = () => {
       className="w-full bg-[#050505] py-[100px] relative">
       <div
         ref={ref}
-        className="w-full max-w-[920px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between items-center 1040px:flex-row flex-col 1040px:py-0 gap-16">
+        className="w-full max-w-[1320px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between items-center 1040px:flex-row flex-col 1040px:py-0 gap-16">
         <motion.div animate={leftAnimation} className="text-[#fff] w-full flex flex-col justify-center">
-          <h1 className="400px:text-[2rem] text-center text-[1.5rem] font-bold ">Team</h1>
+          <h1 className="400px:text-[2rem] text-[1.5rem] font-bold ">Team</h1>
           <p className="400px:my-10 my-6 text-[0.8rem]  400px:text-[1rem] ">
             Maciej Łuczyński i Bartłomiej Wasilewski to absolwenci Wydziału Organizacji Produkcji Filmowej i Telewizyjnej w Łódzkiej Szkole Filmowej (PWSFTiTV w Łodzi). Wieloletni producenci treści audiowizualnych w grupach medialnych TVP S.A. oraz ZPR Media S.A. Współpracowali z takimi markami jak: Bugatti, Eska, Gerda, Itaka, KIA, Mentos, Pocztex, Polsat, Redbull, Teatr Ateneum, Teatr Polski, Teatr Studio, Warszawska Opera Kameralna, WWF czy Zamek Królewski w Warszawie.
           </p>
-          <div className="flex justify-center">
+          <div >
             <button
               className="400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] font-bold hover:bg-[#D92750] hover:text-white transition-colors duration-300"
               onClick={() => setModalOpen(!modalOpen)}
@@ -69,8 +69,22 @@ const AboutUs = () => {
             </button>
           </div>
         </motion.div>
+        <motion.div animate={rightAnimation} className="w-full">
+          <div className="flex gap-10">
+            <img
+              src="/images/people-1.png"
+              alt="about-background"
+              className="w-1/2 h-full object-cover"
+            />
+            <img
+              src="/images/people-2.png"
+              alt="about-background"
+              className="w-1/2 h-full object-cover"
+            />
+          </div>
+        </motion.div>
         {modalOpen &&
-          <div className="absolute w-screen h-auto left-0 top-[50%] -translate-y-[50%] md:top-0 md:translate-y-0 bg-gray-900 p-3 sm:p-5 md:pb-8 lg:pb-10">
+          <div className="absolute w-screen h-auto left-0 top-[50%] -translate-y-[50%] md:top-0 md:translate-y-0 bg-gray-900 p-3 sm:p-5 md:p-10 md:pb-8 lg:pb-10">
             <div className="w-full max-w-[1000px] mx-auto flex flex-col items-end gap-5">
               <button
                 className=" flex justify-end"

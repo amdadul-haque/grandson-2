@@ -22,8 +22,9 @@ export async function POST(request) {
 
     const mailOption = {
       from: fromMail,
+      to: "hello@grandson.media",
       // to: "J.mindfuse@outlook.com",
-      to: "haque1807107@stud.kuet.ac.bd",
+      // to: "haque1807107@stud.kuet.ac.bd",
       // to: process.env.NODEMAILER_EMAIL,
       subject: `${name} is looking for you.`,
       html: `

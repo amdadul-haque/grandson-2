@@ -138,7 +138,7 @@ const ContactUs = () => {
           </div>
 
           <div>
-            <button type='submit' disabled={isLoading} className="400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] font-bold hover:bg-[#D92750] hover:text-white transition-colors duration-300">
+            <button type='submit' disabled={isLoading} className="uppercase 400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] font-bold hover:bg-[#D92750] hover:text-white transition-colors duration-300">
               Wyślij
             </button>
           </div>
