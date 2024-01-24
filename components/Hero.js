@@ -77,7 +77,7 @@ const Hero = () => {
           <a href="https://www.instagram.com/grandsondasein/" target="_blank">
             <FaInstagram className={linkIconStyle} />
           </a>
-          <a href="mailto:hello@grandson.pro">
+          <a href="mailto:hello@grandson.media">
             <FaMailBulk className={linkIconStyle} />
           </a>
         </div>
