@@ -68,13 +68,13 @@ const Hero = () => {
           <p>{subtitle}</p>
         </h4>
         <div className="flex items-center gap-6 pt-8 400px:pt-16 mx-auto w-full justify-center">
-          <a href="https://www.facebook.com/grandson.pro" target="_blank">
+          <a href="https://www.facebook.com/grandson.media" target="_blank">
             <FaFacebookF className={linkIconStyle} />
           </a>
           <a href="https://www.youtube.com/@grandsonmedia" target="_blank">
             <FaYoutube className={linkIconStyle} />
           </a>
-          <a href="https://www.instagram.com/grandsondasein/" target="_blank">
+          <a href="https://www.instagram.com/grandson.media/" target="_blank">
             <FaInstagram className={linkIconStyle} />
           </a>
           <a href="mailto:hello@grandson.media">
