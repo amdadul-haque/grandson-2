@@ -13,7 +13,8 @@ export async function POST(request) {
       auth: {
         user: 'amdadul1807107@gmail.com',
         // user: 'hello@grandson.media',
-        pass: 'wzhujflleuttdcyp',
+        // pass: 'wzhujflleuttdcyp',
+        pass: 'ctyplxmrxbcoasox',
         // user: process.env.NODEMAILER_EMAIL,
         // pass: process.env.NODEMAILER_PW,
         // NODEMAILER_EMAIL = 'amdadul1807107@gmail.com'
