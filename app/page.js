@@ -39,13 +39,13 @@ export default function Home() {
             isLoading={isLoading}
             finishLoading={() => setIsLoading(false)}
           />
-          <Navbar />
+          {/* <Navbar /> */}
           <Hero />
           <Services />
           <Portfolio />
           <AboutUs />
           <ContactUs />
-          <Footer />
+          {/* <Footer /> */}
           <AnimatedCursor
             innerSize={8}
             outerSize={17}
