@@ -1,5 +1,4 @@
-import Hero from '@/components/Hero'
-import { Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
+import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
 import React from 'react'
 
 const VideosPage = () => {

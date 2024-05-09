@@ -2,10 +2,10 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className='lg:h-[700px] w-full section-1 py-16'
+    <div className='lg:h-[700px] w-full section-1 py-8 md:py-16'
     >
       <div className='container-wrapper text-gray-100 h-full flex items-center'>
-        <div className='flex flex-col lg:flex-row gap-10 md:justify-between'>
+        <div className='flex flex-col lg:flex-row gap-5 sm:gap-8 md:justify-between'>
           <div className='text-box '>
             <h3 className='section-title'>Twoje historie w naszych obrazach</h3>
             <p className='text-center'>Video marketing to niezwykle skuteczne narzędzie, które pozwala na dynamiczne i

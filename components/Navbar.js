@@ -32,7 +32,6 @@ const Navbar = () => {
 
 
   return (
-    // <nav className={`w-full ${typeof window !== 'undefined' && scrolY > 60 && 'bg-[#151515]'} px-3 lg:px-0 py-2 fixed z-100`}>
     <nav className={`w-full fixed`}
       style={{ zIndex: 49 }}
     >
@@ -42,15 +41,15 @@ const Navbar = () => {
         transition={{ ease: "easeOut", duration: 0.5 }}
       ></motion.div>
       <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
-        <a href="#hero" className="z-10 flex h-full items-center">
-          <img src="/images/upper_left_corner.png" alt="logo" className="h-[50px] ml-2 my-2" />
+        <a href="/" className="z-10 flex h-full items-center">
+          <img src="/images/upper_left_corner.png" alt="logo" className="h-[35px] lg:h-[50px] ml-2 my-2" />
         </a>
 
         <div
-          className="sm:hidden cursor-pointer z-10 mr-2"
+          className="md:hidden cursor-pointer z-10 mr-2"
           onClick={toggleMobileMenu}
         >
-          <AiOutlineMenu className="text-[25px]" />
+          <AiOutlineMenu className="text-xl " />
         </div>
         <motion.ul
           className={`${isMobileMenuOpen ? 'flex flex-col' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0 bg-[#222] md:bg-transparent text-white md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
