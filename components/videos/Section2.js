@@ -8,7 +8,7 @@ const Section2 = () => {
         <div className="text-box !bg-black">
           <h2 className='section-header'>Nasz Proces Produkcji Wideo</h2>
         </div>
-        <div className='flex flex-col lg:flex-row gap-8 md:justify-between'>
+        <div className='flex flex-col lg:flex-row gap-5 md:gap-8 md:justify-between'>
           <div className='text-box !bg-black'>
             <h3 className='section-title'> Konsultacja i Planowanie </h3>
             <p className='text-center'>Na początku każdego projektu z zakresu produkcji wideo przeprowadzamy

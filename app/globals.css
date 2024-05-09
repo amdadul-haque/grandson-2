@@ -29,6 +29,9 @@
 .section-2 {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../public/images/videos/4.jpg) no-repeat center center/cover;
 }
+.section-3 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/videos/2.jpg) no-repeat center center/cover;
+}
 
 /* navbar hover effect */
 .navBar ul li {
