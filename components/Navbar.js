@@ -30,6 +30,15 @@ const Navbar = () => {
   }, []);
 
 
+  const navLinks = [
+    { name: "Start", link: "/#start" },
+    { name: "Video", link: "/video" },
+    { name: "Oferta", link: "/#oferta" },
+    { name: "Case Studies", link: "/#casestudies" },
+    { name: "Team", link: "/#team" },
+    { name: "Kontakt", link: "#kontakt" },
+  ]
+
 
   return (
     <nav className={`w-full fixed`}
@@ -55,40 +64,16 @@ const Navbar = () => {
           className={`${isMobileMenuOpen ? 'flex flex-col' : 'hidden'} flex-col absolute px-4 py-2 top-[80px] left-0 right-0 w-[90%] md:w-auto mx-auto md:mx-0 md:top-0 bg-[#222] md:bg-transparent text-white md:flex md:flex-row justify-end md:items-centern gap-2 md:gap-6 md:relative`}
           animate={{ opacity: isMobileMenuOpen ? 1 : 0, height: isMobileMenuOpen ? 'auto' : 0, display: isMobileMenuOpen ? 'flex' : 'none' }}
         >
-          <a href="#start">
-            <li className="cursor-pointer">
-              <p>Start</p>
-              <span>Start</span>
-            </li>
-          </a>
 
-          <a href="#oferta">
-            <li className="cursor-pointer flex items-center gap-2 group">
-              <p>Oferta</p>
-              <span>Oferta</span>
-            </li>
-          </a>
+          {navLinks.map((link, index) => (
+            <a href={link.link} key={index}>
+              <li className="cursor-pointer">
+                <p>{link.name}</p>
+                <span>{link.name}</span>
+              </li>
+            </a>
+          ))}
 
-          <a href="#casestudies">
-            <li className="cursor-pointer flex items-center gap-2 group">
-              <p>Case Studies</p>
-              <span>Case Studies</span>
-            </li>
-          </a>
-
-          <a href="#team">
-            <li className="cursor-pointer">
-              <p>Team</p>
-              <span>Team</span>
-            </li>
-          </a>
-
-          <a href="#kontakt">
-            <li className="cursor-pointer">
-              <p>Kontakt</p>
-              <span>Kontakt</span>
-            </li>
-          </a>
         </motion.ul>
       </div>
     </nav >

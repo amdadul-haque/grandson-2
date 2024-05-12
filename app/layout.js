@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { poppins } from "@/fonts";
 import AnimatedCursor from "react-animated-cursor";
+import ContactUs from "@/components/ContactUs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,8 +23,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className={poppins.className}>
         <ToastContainer position="top-right" />
+        
         <Navbar />
         {children}
+        <ContactUs />
         <Footer />
         <AnimatedCursor
             innerSize={8}

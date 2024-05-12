@@ -43,7 +43,6 @@ export default function Home() {
           <Services />
           <Portfolio />
           <AboutUs />
-          <ContactUs />
         </>
         <FacebookMsg />
       </main>
