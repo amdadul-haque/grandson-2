@@ -6,12 +6,16 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container-wrapper {
   @apply max-w-screen-md mx-auto lg:max-w-screen-lg xl:max-w-screen-xl px-4;
 }
 
 .text-box {
-  @apply px-4 sm:px-6 py-6 bg-black bg-opacity-50 text-gray-100 w-full text-justify;
+  @apply px-4 sm:px-6 py-6 bg-black bg-opacity-80 text-gray-100 w-full text-justify;
 }
 
 .text-box>p {
@@ -114,7 +118,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1000;
+  z-index: 1500;
 }
 
 .loading-text {
