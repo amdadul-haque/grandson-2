@@ -16,7 +16,7 @@ body {
 
 
 .text-box {
-  @apply px-4 sm:px-6 py-6 bg-black bg-opacity-80 text-gray-100 w-full text-justify;
+  @apply px-4 sm:px-6 py-6 bg-black bg-opacity-70 text-gray-100 w-full text-justify;
 }
 
 .text-box>p {
@@ -41,6 +41,13 @@ body {
 
 .section-3 {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/videos/2.jpg) no-repeat center center/cover;
+}
+
+.podcast-bg-1{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/podcast/1.jpg) no-repeat center center/cover;
+}
+.podcast-bg-2{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/podcast/2.jpg) no-repeat center center/cover;
 }
 
 /* navbar hover effect */
