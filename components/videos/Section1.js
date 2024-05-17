@@ -49,7 +49,7 @@ const Section1 = () => {
             animate={leftAnimation}
           >
             <h3 className='section-title'>Twoje historie w naszych obrazach</h3>
-            <p className='text-center'>Video marketing to niezwykle skuteczne narzędzie, które pozwala na dynamiczne i
+            <p >Video marketing to niezwykle skuteczne narzędzie, które pozwala na dynamiczne i
               angażujące dotarcie do Twojej grupy docelowej. Nasza profesjonalna produkcja video
               pomoże Ci w skutecznym przekazywaniu Twoich historii. Wykorzystując video, możemy
               przyciągnąć uwagę, zwiększyć świadomość Twojej marki oraz budować trwałe relacje z
@@ -61,7 +61,7 @@ const Section1 = () => {
             animate={rightAnimation}
           >
             <h2 className='section-title'>Nasze Formaty Video</h2>
-            <p className='text-center'>Oferujemy różnorodne formaty video, które wzbogacą Twoją strategię marketingową,
+            <p >Oferujemy różnorodne formaty video, które wzbogacą Twoją strategię marketingową,
               włączając w to animowane explainery, filmy wizerunkowe, podcasty oraz reklamy oparte na
               sztucznej inteligencji. Portfolio naszej agencji uzupełniają także regularne produkcje
               telewizyjne oraz pełnometrażowe dokumenty. Zapewniamy kompleksową obsługę od etapu

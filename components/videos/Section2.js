@@ -21,7 +21,7 @@ const Section2 = () => {
             transition={{ duration: .6 }}
           >
             <h3 className='section-title'> Konsultacja i Planowanie </h3>
-            <p className='text-center'>Na początku każdego projektu z zakresu produkcji wideo przeprowadzamy
+            <p >Na początku każdego projektu z zakresu produkcji wideo przeprowadzamy
               szczegółową konsultację, aby lepiej poznać cele, grupę docelową i wymagania, jakie
               stawia przed nami klient. Na podstawie zebranych informacji tworzymy
               spersonalizowany plan działania, uwzględniając ustalone wskaźniki sukcesu i
@@ -35,7 +35,7 @@ const Section2 = () => {
             transition={{ duration: .6 }}
           >
             <h3 className='section-title'>Produkcja i Montaż Wideo</h3>
-            <p className='text-center'>Po nakreśleniu briefu i zaakceptowaniu planu przystępujemy do produkcji video.
+            <p >Po nakreśleniu briefu i zaakceptowaniu planu przystępujemy do produkcji video.
               Nasz zespół kreatywny opracowuje scenariusz i czuwa nad każdym etapem
               realizacji, dbając o wysoką jakość produkcji, zgodną z wizją klienta. Na planie
               zdjęciowym korzystamy z uznanej na rynku serii kamer Sony FX oraz obiektywów
@@ -56,7 +56,7 @@ const Section2 = () => {
             transition={{ duration: .6 }}
           >
             <h3 className='section-title'>Optymalizacja, Dystrybucja i Promocja </h3>
-            <p className='text-center'>
+            <p >
               Dokładna analiza treści video służy nam w dostosowaniu jej do standardów SEO w
               mediach społecznościowych, zapewniając satysfakcjonujące indeksowanie i wysoką
               pozycję na stronach wyników wyszukiwania pod kątem odpowiednich słów

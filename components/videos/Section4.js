@@ -12,7 +12,7 @@ const Section4 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <p className='text-center'>Grandson Media to nie tylko agencja marketingowa - jesteśmy Twoim partnerem w osiąganiu
+            <p >Grandson Media to nie tylko agencja marketingowa - jesteśmy Twoim partnerem w osiąganiu
               sukcesu. Nasza wiedza, doświadczenie i pasja do tworzenia video oraz video marketingu
               pozwalają nam wyróżnić się na rynku i pomagać naszym klientom osiągnąć ich cele
               marketingowe. Jeśli poszukujesz agencji, która oferuje profesjonalizm i innowacyjne
@@ -24,7 +24,7 @@ const Section4 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <p className='text-center'>Skontaktuj się z nami już dziś i podziel się swoją wizją! Jesteśmy gotowi wesprzeć Cię w
+            <p >Skontaktuj się z nami już dziś i podziel się swoją wizją! Jesteśmy gotowi wesprzeć Cię w
               realizacji Twojego projektu video, niezależnie od jego skali czy charakteru. Dzięki naszej
               wiedzy, doświadczeniu i zaangażowaniu, możemy wspólnie stworzyć wyjątkowe treści
               video, które przyciągną uwagę Twojej grupy docelowej i pomogą osiągnąć Twoje cele
