@@ -13,7 +13,7 @@ const Section1 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h3 className='section-title'>Twoje treści w naszym studio podcastowym</h3>
+            <h3 className='section-title'>Twoje treści w naszym <br /> studio podcastowym</h3>
             <p className='text-center'> Oferujemy kompleksowe usługi produkcji podcastów, które nie tylko rozwijają obecność online, ale także angażują audytorium wnowy, dynamiczny sposób. Czy jesteście gotowi na ekscytującą podróż przez świat treści audio-video? Przekonajcie się, dlaczego warto wybrać nasze studio podcastowe! <br />
               Podcasty to rewolucja w sposobie, w jaki użytkownicy konsumują treści audiowizualne. Stają się one nie tylko popularnym źródłem rozrywki, ale także ważnym narzędziem do zdobywania wiedzy i pogłębiania zainteresowań. Ta forma konsumpcji pozwala słuchać ulubionych programów w drodze do pracy, podczas treningu, czy nawet w trakcie wykonywania codziennych obowiązków domowych. Te niezwykle elastyczne formy komunikacji, dają użytkownikom kontrolę nad czasem i miejscem, w którym chcą konsumować treści. W dobie szybkiego rozwoju technologii mobilnych i wzrostu popularności platform streamingowych, coraz więcej osób sięga po podcasty, co sprawia, że stanowią one znaczący kierunek rozwoju mediów i marketingu.
             </p>

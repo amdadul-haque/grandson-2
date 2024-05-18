@@ -34,6 +34,7 @@ const Navbar = () => {
     { name: "Start", link: "/#start" },
     { name: "Video", link: "/video" },
     { name: "Podcast", link: "/podcast" },
+    { name: "Media", link: "/media" },
     { name: "Oferta", link: "/#oferta" },
     { name: "Case Studies", link: "/#casestudies" },
     { name: "Team", link: "/#team" },
@@ -50,7 +51,7 @@ const Navbar = () => {
         animate={{ opacity: scrolY > 60 ? 1 : 0 }}
         transition={{ ease: "easeOut", duration: 0.5 }}
       ></motion.div>
-      <div className="max-w-[1140px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
+      <div className="max-w-[1240px] mx-auto flex items-center justify-between w-full text-[#fff] navBar">
         <a href="/" className="z-10 flex h-full items-center">
           <img src="/images/upper_left_corner.png" alt="logo" className="h-[35px] lg:h-[50px] ml-2 my-2" />
         </a>

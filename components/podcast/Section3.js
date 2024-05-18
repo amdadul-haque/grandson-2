@@ -19,7 +19,7 @@ const Section3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h2 className='section-title'> Wysoka Jakość Produkcj </h2>
+            <h2 className='section-title'> Wysoka jakość produkcji </h2>
             <p > Wybierając Studio Podcastowe Grandson Media, nasz klient otrzymuje produkcję wysokiej
               jakości. Wszystkie nagrania w naszym studiu podcastowym realizujemy korzystając z uznanej na rynku serii kamer Sony FX oraz dedykowanych obiektywów Sony G-Master o niezwykłej wyrazistości i głębi obrazu. Materiał rejestrujemy w rozdzielczości 4K, co pozwoli cieszyć się wyjątkową jakością obrazu i dźwięku.
               <br />
@@ -34,7 +34,7 @@ const Section3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h2 className='section-title'> Eksperckie Doradztwo i Pomoc w Realizacji  </h2>
+            <h2 className='section-title'> Eksperckie doradztwo i pomoc <br /> w realizacji  </h2>
             <p >W Studio Podcastowym Grandson Media, nie pozostawiamy Cię samemu sobie w trakcie
               procesu produkcji. Nasz zespół nie tylko narzędzia, ale także oferuje wsparcie i
               eksperckie doradztwo na każdym etapie tworzenia  podcastu. Od pierwszych
@@ -53,8 +53,7 @@ const Section3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h2 className='section-title'>Podcasty Dla Wzmacniania Marki i Angażowania
-              Odbiorców</h2>
+            <h2 className='section-title'>Podcasty dla wzmacniania marki <br /> i angażowania </h2>
             <p > Podcasty wideo są doskonałym narzędziem nie tylko do promocji marki, ale także do
               budowania trwałych relacji z odbiorcami. W Grandson Media, wierzymy w potencjał podcastów do wzmacniania świadomości marki, budowania zaufania  zaangażowania odbiorców. Nasze podcasty nie tylko dostarczają wartościowych treści, ale także budują więź emocjonalną z widzami, co przekłada się na lojalność i zaangażowanie</p>
           </motion.div>
@@ -63,7 +62,7 @@ const Section3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h2 className='section-title'> Optymalizacja Treści i Podcast Marketing </h2>
+            <h2 className='section-title'> Optymalizacja treści <br /> i podcast marketing </h2>
             <p > Nasza obsługa nie kończy się na produkcji. Poza tworzeniem wysokiej jakości treści podcastowych, nasz zespół skupia się również na optymalizacji tych materiałów pod kątem SEO . Stosujemy najlepsze praktyki w zakresie optymalizacji treści, dbając o odpowiednie używanie słów kluczowych, meta opisów i tytułów, co przyczynia się do poprawy widoczności podcastów w wynikach wyszukiwania.
 
             </p>
