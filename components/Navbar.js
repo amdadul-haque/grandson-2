@@ -35,6 +35,7 @@ const Navbar = () => {
     { name: "Video", link: "/video" },
     { name: "Podcast", link: "/podcast" },
     { name: "Media", link: "/media" },
+    { name: "Social Media", link: "/social-media" },
     { name: "Oferta", link: "/#oferta" },
     { name: "Case Studies", link: "/#casestudies" },
     { name: "Team", link: "/#team" },

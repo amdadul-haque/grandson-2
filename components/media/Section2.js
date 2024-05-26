@@ -32,7 +32,7 @@ const Section2 = () => {
           >
             <h3 className='section-title'>Kamila Drecka</h3>
             <p>
-              ceniona dziennikarka telewizyjna, autorka książek biograficznych, wywiadów prasowych, wykładowczyni i trenerka zajęć z budowania wizerunku i umiejętności publicznych prezentacji na Uniwersytecie Warszawskim. Od kilku lat prowadzi zajęcia ze studentami Uniwersytetu Warszawskiego kształtującymi tzw. kompetencje miękkie w budowaniu wizerunku ze szczególnym uwzględnieniem kompetencji liderskich, mowy ciała, umiejętności prezentacji i wszelkich zasad umiejętności zachowania się przed kamerą i przy wystąpieniach publicznych.
+              ceniona dziennikarka telewizyjna, autorka książek biograficznych, wywiadów prasowych, wykładowczyni i trenerka zajęć z budowania wizerunku i umiejętności publicznych prezentacji na Uniwersytecie Warszawskim. Od kilku lat prowadzi zajęcia ze studentami UW kształtującymi tzw. kompetencje miękkie w budowaniu wizerunku ze szczególnym uwzględnieniem kompetencji liderskich, mowy ciała, umiejętności prezentacji i wszelkich zasad umiejętności zachowania się przed kamerą i przy wystąpieniach publicznych.
             </p>
           </motion.div>
           <motion.div className='text-box'

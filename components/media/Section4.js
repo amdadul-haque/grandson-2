@@ -23,7 +23,6 @@ const Section4 = () => {
             <p>
               Na każdym etapie warsztatów nasi uczestnicy mają możliwość korzystania z indywidualnych konsultacji z naszymi doświadczonymi instruktorami. Dzięki temu każdy uczestnik może uzyskać personalizowane wsparcie i porady, dopasowane do swoich konkretnych potrzeb i celów.
               <br />
-              <br />
               Podczas tych sesji konsultacyjnych, nasi instruktorzy są dostępni, aby udzielać fachowych wskazówek, dzielić się swoim doświadczeniem oraz pomagać w rozwiązywaniu konkretnych problemów związanych z komunikacją medialną. Indywidualne podejście pozwala nam skupić się na potrzebach każdego uczestnika, zapewniając mu pełne wsparcie w zdobywaniu i doskonaleniu umiejętności.
             </p>
           </motion.div>
@@ -42,7 +41,7 @@ const Section4 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h3 className='section-title'> Analiza Przykładów i Strategii Komunikacyjnych</h3>
+            <h3 className='section-title'> Analiza Przykładów <br /> i Strategii Komunikacyjnych</h3>
             <p>
               Podczas warsztatów, nasi instruktorzy prezentują praktyczne przykłady, analizując zastosowane strategie komunikacyjne oraz ich efektywność. Korzystając z rzeczywistych case studies i przykładów z życia zawodowego, uczestnicy mają okazję bliżej przyjrzeć się różnym podejściom i technikom komunikacji w praktyce. Analiza tych przykładów pozwala uczestnikom lepiej zrozumieć, jakie strategie są najskuteczniejsze w konkretnych sytuacjach, oraz jak można je dostosować do własnych potrzeb i celów komunikacyjnych. Dzięki temu, uczestnicy zyskują praktyczną wiedzę i umiejętności, które mogą bezpośrednio zastosować w swojej pracy zawodowej.
             </p>

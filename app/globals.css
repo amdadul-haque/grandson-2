@@ -58,6 +58,14 @@ body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/media/2.jpg) no-repeat center center/cover;
 }
 
+.social-bg-1{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/1.jpg) no-repeat center center/cover;
+}
+.social-bg-2{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/2.jpg) no-repeat center center/cover;
+}
+
+
 /* navbar hover effect */
 .navBar ul li {
   position: relative;
