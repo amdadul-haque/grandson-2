@@ -20,9 +20,9 @@ const Section1 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: .6 }}
           >
-            <h3 className='section-title'>Profesjonalne Warsztaty Dziennikarskie: Rozwijaj Swoje Umiejętności Komunikacyjne</h3>
+            <h3 className='section-title'>Profesjonalne Warsztaty Dziennikarskie: <br /> Rozwijaj Swoje Umiejętności Komunikacyjne</h3>
             <p className='text-center'>
-              Mistrzowie Mediów to seria warsztatów medialnych, które mają na celu wyposażenie uczestników w niezbędne komunikacyjne dzięki którym osiągną sukces w bizcnesie i karierze dziennikarskiej.
+              Mistrzowie Mediów to seria warsztatów medialnych, które mają na celu wyposażenie uczestników w niezbędne komunikacyjne dzięki którym osiągną sukces w biznesie i karierze dziennikarskiej.
             </p>
           </motion.div>
           {/* <motion.div className='text-box '

@@ -1,4 +1,5 @@
-import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/social-media';
+import { Hero, PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
+import { socialMediaTexts } from '@/data';
 import React from 'react'
 
 export const metadata = {
@@ -7,6 +8,7 @@ export const metadata = {
 };
 
 const PodcastPage = () => {
+
   return (
     <>
 
@@ -15,8 +17,13 @@ const PodcastPage = () => {
         <Section1 />
         <Section2 />
         <Section3 />
-        <Section4 />
-        <Section5 />
+        {
+          socialMediaTexts.map((text, index) => (
+            <Section4 key={index} text={text} index={index} />
+          ))
+        }
+        {/* <Section4 /> */}
+        <PageFooter />
       </div>
     </>
   )
