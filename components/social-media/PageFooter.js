@@ -30,7 +30,7 @@ const PageFooter = () => {
             transition={{ duration: .6 }}
           >
             <p>
-              Nie pozwól, aby Twoja marka pozostała niezauważona w zatłoczonym cyfrowym świecie. Skontaktuj się z nami już dzisiaj, aby dowiedzieć się więcej o naszych usługach z zakresu marketingu w social media i rozpocząć skuteczną transformację Twojej obecności online. Zapewnij sobie miejsce na czele cyfrowej rewolucji, osiągając swoje cele biznesowe z Grandson Media. Zacznij teraz i odkryj, jak nasze kreatywne i strategiczne podejście może przynieść wymierne korzyści Twojej firmie.
+              Nie pozwól, aby Twoja marka pozostała niezauważona w zatłoczonym cyfrowym świecie. Skontaktuj się z nami już dzisiaj, aby dowiedzieć się więcej o naszych usługach z zakresu marketingu w social media <br /> i rozpocząć skuteczną transformację Twojej obecności online. Zapewnij sobie miejsce na czele cyfrowej rewolucji, osiągając swoje cele biznesowe z Grandson Media. Zacznij teraz i odkryj, jak nasze kreatywne i strategiczne podejście może przynieść wymierne korzyści Twojej firmie.
             </p>
           </motion.div>
 

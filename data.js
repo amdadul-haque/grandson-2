@@ -8,11 +8,11 @@ export const socialMediaTexts = [
         description: "Naszym celem jest zidentyfikowanie mocnych i słabych stron konkurencji. W tym procesie dokładnie przeanalizujemy treści, aktywność oraz sposób komunikacji. Poprzez zgłębianie tych informacji będziemy w stanie lepiej zrozumieć dynamikę rynku oraz dostosować nasze strategie w celu osiągnięcia przewagi konkurencyjnej."
       },
       {
-        title: "Dobór Kanałów i Narzędzi",
+        title: "Dobór Kanałów <br /> i Narzędzi",
         description: "Wybieramy platformy społecznościowe najlepiej pasujące do profilu Twojej marki i celów kampanii. Dla każdej z nich opracowujemy odrębne podejście i strategię treści."
       },
       {
-        title: "Monitorowanie i Optymalizacja",
+        title: "Monitorowanie <br /> i Optymalizacja",
         description: "Za pomocą nowoczesnych narzędzi do analizy mediów społecznościowych śledzimy wyniki naszych działań. Analizujemy, które treści najlepiej rezonują z Twoją grupą docelową, co pozwala na bieżące modyfikowanie strategii."
       },
     ]
@@ -27,7 +27,7 @@ export const socialMediaTexts = [
       },
       {
         title: "Treści video",
-        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania"
+        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty <br /> i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania"
       },
       {
         title: "Rolki",

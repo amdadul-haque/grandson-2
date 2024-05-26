@@ -27,7 +27,7 @@ const Section2 = () => {
             <h2 className='section-title'>Nasze Podejście do Social Media Marketingu</h2>
             <ul className='list-disc pl-5'>
               <li>
-                <p>Tworzymy strategie dostosowane do specyfiki każdej branży i indywidualnych potrzeb klienta.</p>
+                <p>Tworzymy strategie dostosowane do specyfiki każdej branży  <br /> i indywidualnych potrzeb klienta.</p>
               </li>
               <li>
                 <p>Korzystamy z najnowszych narzędzi i technologii</p>

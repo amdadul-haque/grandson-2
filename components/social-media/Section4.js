@@ -45,7 +45,9 @@ const Section4 = ({ text, index }) => {
                   whileInView={{ opacity: 1, x: 0, y: 0 }}
                   transition={{ duration: .6 }}
                 >
-                  <h4 className='section-title'>{section.title}</h4>
+                  {/* <h4 className='section-title' dangerouslySetInnerHTML={{ __html: section.title }} /> */}
+                  <h4 className='section-title'>{section.title.split('<br />')[0]} <br /> {section.title.split('<br />')[1]}</h4>
+
                   <p>{section.description}</p>
                 </motion.div>
               ))

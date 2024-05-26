@@ -22,7 +22,6 @@ const PodcastPage = () => {
             <Section4 key={index} text={text} index={index} />
           ))
         }
-        {/* <Section4 /> */}
         <PageFooter />
       </div>
     </>
