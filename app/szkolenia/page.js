@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Dołącz do naszych warsztatów dziennikarskich i szkoleń medialnych. Rozwijaj umiejętności komunikacyjne z ekspertami branży i osiągnij sukces w mediach!'
 };
 
-const PodcastPage = () => {
+const MediaPage = () => {
   return (
     <>
 
@@ -24,6 +24,6 @@ const PodcastPage = () => {
   )
 }
 
-export default PodcastPage
+export default MediaPage
 
 

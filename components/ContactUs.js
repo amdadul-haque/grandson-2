@@ -1,16 +1,10 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
-
-// framer motion
 import { useAnimation, motion } from "framer-motion";
-
-// intersection observer
 import { useInView } from "react-intersection-observer";
 import { toast } from "react-toastify";
 
-const ContactUs = () => {
-  // intersection observer
+const ContactUs = ({isTransparent}) => {
   const { ref, inView } = useInView({ threshold: 0.2 });
   const animation = useAnimation();
   useEffect(() => {
@@ -36,6 +30,7 @@ const ContactUs = () => {
   const [message, setMessage] = useState('')
 
   const [isLoading, setIsLoading] = useState(false);
+  
   const handleButtonClick = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -73,31 +68,21 @@ const ContactUs = () => {
     <div
       id="kontakt"
       ref={ref}
-      className="bg-[#000000] w-full mx-auto flex justify-between  items-center flex-col gap-16 py-12 lg:py-24 1040px:px-0 400px:px-12 px-6"
+      className={`w-full mx-auto flex justify-between items-center flex-col gap-16 ${isTransparent ? 'bg-transparent' : 'bg-black px-6 py-12 lg:py-24 lg:px-0 xsm:px-12'}`}
     >
-      {/* <div className="text-[#fff] w-[50%] text-center ">
-        <h1 className="font-extrabold text-[1.5rem] mb-6">
-          A CREATIVE STUDIO IN MELBOURNE, PASSIONATE ABOUT DESIGN, ART AND
-          CREATIVITY, SINCE 1950.
-        </h1>
-        <button className="py-4 px-8 bg-[#fff] text-[#000] text-[0.8rem] font-bold hover:bg-[#f16464] transition-colors duration-300">
-          CONTACT WITH US
-        </button>
-      </div> */}
-
-      <motion.div animate={animation} className="text-[#fff] w-full max-w-[1000px]">
-        <h1 className="font-extrabold text-[1rem] 400px:text-[1.5rem] mb-6">
+      <motion.div animate={animation} className="text-white w-full max-w-[1000px]">
+        <h1 className="font-extrabold text-base xsm:text-[1.5rem] mb-6">
           Masz pomysł na kreatywną kampanię lub szukasz inspiracji? <br />
           Połączmy siły i stwórzmy coś wyjątkowego!
         </h1>
         <form onSubmit={handleButtonClick}>
-          <div className="flex items-center gap-8 1040px:flex-row 400px:flex-row flex-col">
+          <div className="flex items-center gap-8 lg:flex-row xsm:flex-row flex-col">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
-              className="w-full text-[0.8rem] 400px:text-[1rem] px-2 py-3 bg-[#000] border-b border-[#464545] text-[#fff] outline-none"
+              className="w-full text-[13px] xsm:text-base px-2 py-3 bg-transparent border-b border-gray-1 text-white outline-none"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -107,7 +92,7 @@ const ContactUs = () => {
               name="name"
               id="name"
               placeholder="Imię i Nazwisko"
-              className="w-full px-2 py-3 text-[0.8rem] 400px:text-[1rem] bg-[#000] border-b border-[#464545] text-[#fff] outline-none"
+              className="w-full px-2 py-3 text-[13px] xsm:text-base bg-transparent border-b border-gray-1 text-white outline-none"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -119,7 +104,7 @@ const ContactUs = () => {
               id="message"
               cols="30"
               placeholder="Wiadomość"
-              className="w-full mt-8 text-[0.8rem] 400px:text-[1rem] p-2 h-[220px] bg-[#000] border border-[#464545] text-[#fff] outline-none"
+              className="w-full mt-8 text-[13px] xsm:text-base p-2 h-[220px] bg-transparent border border-gray-1 text-white outline-none"
               // required
               value={message}
               onChange={(e) => setMessage(e.target.value)}
@@ -127,7 +112,7 @@ const ContactUs = () => {
           </div>
 
           <div class="flex items-center my-8">
-            <input id="link-checkbox" type="checkbox" required value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+            <input id="link-checkbox" type="checkbox" required value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-1-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-1-600" />
             <label for="link-checkbox" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
               Zapoznałem(am) się z
               <a href="/polityka_prywatnosci.pdf" target="_blank" className="text-blue-600 dark:text-blue-500 hover:underline mx-1">
@@ -137,7 +122,7 @@ const ContactUs = () => {
           </div>
 
           <div>
-            <button type='submit' disabled={isLoading} className="uppercase 400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] font-bold hover:bg-[#D92750] hover:text-white transition-colors duration-300">
+            <button type='submit' disabled={isLoading} className="uppercase xsm:py-4 px-4 py-2 xsm:px-8 bg-white text-black font-bold hover:bg-brand hover:text-white transition-colors duration-300">
               Wyślij
             </button>
           </div>

@@ -97,19 +97,19 @@ const Services = () => {
       <div
         id="oferta"
         ref={ref}
-        className=" w-full max-w-[1320px] mx-auto gap-12 px-4 1040px:px-0 py-12 flex flex-col items-center justify-between 1040px:flex-row 1040px:py-24">
+        className=" w-full max-w-[1320px] mx-auto gap-12 px-4 lg:px-0 py-12 flex flex-col items-center justify-between lg:flex-row lg:py-24">
         <motion.div
           animate={leftAnimation}
-          className="text-[#fff] 1040px:text-start text-center 1040px:w-[60%]">
-          <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">Oferta</h1>
-          <p className="mt-4 400px:text-[1rem] text-[0.8rem]">
+          className="text-white lg:text-start text-center lg:w-[60%]">
+          <h1 className="text-[1.5rem] xsm:text-[2rem] font-bold ">Oferta</h1>
+          <p className="mt-4 xsm:text-base text-[13px]">
             Kreatywne rozwiązania dla Twojej marki.
           </p>
         </motion.div>
 
         <motion.div
           animate={rightAnimation}
-          className="grid grid-cols-1 400px:grid-cols-2 1040px:grid-cols-3 gap-4 sm:gap-8">
+          className="grid grid-cols-1 xsm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
 
           {services.map((service, index) => (
             <motion.div
@@ -118,7 +118,7 @@ const Services = () => {
             >
               <Image src={service.icon} width={40} height={40} />
               <h2 className="my-3 font-extrabold">{service.title}</h2>
-              <p className="text-[0.8rem]">{service.description}</p>
+              <p className="text-[13px]">{service.description}</p>
             </motion.div>
           ))}
           

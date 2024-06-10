@@ -99,15 +99,15 @@ const Portfolio = () => {
     <div id="casestudies" className="bg-black w-full ">
       <div
         ref={ref}
-        className="w-full max-w-[1320px] mx-auto flex justify-between 1040px:flex-row flex-col items-center gap-16 py-12 1040px:py-24">
+        className="w-full max-w-[1320px] mx-auto flex justify-between lg:flex-row flex-col items-center gap-16 py-12 lg:py-24">
 
         <motion.div
           animate={leftAnimation}
-          className="text-[#fff] 1040px:px-0 400px:px-12 px-6 1040px:w-[35%] 1040px:text-start text-center">
-          <h1 className="text-[1.5rem] 400px:text-[2rem] font-bold ">
+          className="text-white lg:px-0 xsm:px-12 px-6 lg:w-[35%] lg:text-start text-center">
+          <h1 className="text-[1.5rem] xsm:text-[2rem] font-bold ">
             Case Studies
           </h1>
-          <p className="my-5 text-[0.8rem] 400px:text-[1rem]">
+          <p className="my-5 text-[13px] xsm:text-base">
             Poznaj nasze realizacje. Niech staną się inspiracją dla nowych, innowacyjnych
             pomysłów.
           </p>

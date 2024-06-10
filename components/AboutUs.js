@@ -54,15 +54,15 @@ const AboutUs = () => {
       className="w-full bg-[#050505] py-[100px] relative">
       <div
         ref={ref}
-        className="w-full max-w-[1320px] mx-auto 1040px:px-0 400px:px-12 px-6 flex justify-between items-center 1040px:flex-row flex-col 1040px:py-0 gap-16">
-        <motion.div animate={leftAnimation} className="text-[#fff] w-full flex flex-col justify-center">
-          <h1 className="400px:text-[2rem] text-[1.5rem] font-bold ">Team</h1>
-          <p className="400px:my-10 my-6 text-[0.8rem]  400px:text-[1rem] ">
+        className="w-full max-w-[1320px] mx-auto lg:px-0 xsm:px-12 px-6 flex justify-between items-center lg:flex-row flex-col lg:py-0 gap-16">
+        <motion.div animate={leftAnimation} className="text-white w-full flex flex-col justify-center">
+          <h1 className="xsm:text-[2rem] text-[1.5rem] font-bold ">Team</h1>
+          <p className="xsm:my-10 my-6 text-[13px]  xsm:text-base ">
             Maciej Łuczyński i Bartłomiej Wasilewski to absolwenci Wydziału Organizacji Produkcji Filmowej i Telewizyjnej w Łódzkiej Szkole Filmowej (PWSFTiTV w Łodzi). Wieloletni producenci treści audiowizualnych w grupach medialnych TVP S.A. oraz ZPR Media S.A. Współpracowali z takimi markami jak: Bugatti, Eska, Gerda, Itaka, KIA, Mentos, Pocztex, Polsat, Redbull, Teatr Ateneum, Teatr Polski, Teatr Studio, Warszawska Opera Kameralna, WWF czy Zamek Królewski w Warszawie.
           </p>
           <div >
             <button
-              className="400px:py-4 px-4 py-2 400px:px-8 bg-[#fff] text-[#000] font-bold hover:bg-[#D92750] hover:text-white transition-colors duration-300"
+              className="xsm:py-4 px-4 py-2 xsm:px-8 bg-white text-black font-bold hover:bg-brand hover:text-white transition-colors duration-300"
               onClick={() => setModalOpen(!modalOpen)}
             >
               NASZ ZESPÓŁ
@@ -92,7 +92,7 @@ const AboutUs = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10 text-[#fff]"
+                  className="h-10 w-10 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

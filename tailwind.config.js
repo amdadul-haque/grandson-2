@@ -15,15 +15,18 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
 
+      colors: {
+        brand: "#D92750",
+        "gray-1": "#464545",
+      },
       screens: {
         "1040px": "1040px",
-        "400px": "425px",
+        "xsm": "425px",
         "end": "1440px",
         "sm": "640px",
         "md": "768px",
         "lg": "1024px",
         "xl": "1280px",
-        
       },
     },
   },

@@ -58,16 +58,16 @@ const Hero = () => {
         </video>
       </div>
       <div className="w-full mx-auto z-10">
-        <h2 className=" font-bold text-[0.9rem] 400px:text-[1.1rem]">
+        <h2 className=" font-bold text-[0.9rem] xsm:text-[1.1rem]">
           AGENCJA MARKETINGOWA 360
         </h2>
-        <h1 className="text-[3.2rem] transition-all duration-300 400px:text-[4rem] font-extrabold  ">
+        <h1 className="text-[3.2rem] transition-all duration-300 xsm:text-[4rem] font-extrabold  ">
           {text}
         </h1>
-        <h4 className="text-[0.9rem] 400px:text-[1.1rem]">
+        <h4 className="text-[0.9rem] xsm:text-[1.1rem]">
           <p>{subtitle}</p>
         </h4>
-        <div className="flex items-center gap-6 pt-8 400px:pt-16 mx-auto w-full justify-center">
+        <div className="flex items-center gap-6 pt-8 xsm:pt-16 mx-auto w-full justify-center">
           <a href="https://www.facebook.com/grandson.media" target="_blank">
             <FaFacebookF className={linkIconStyle} />
           </a>

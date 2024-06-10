@@ -22,7 +22,7 @@ const Section2 = () => {
           >
             <h3 className='section-title'> Dariusz Łukawski </h3>
             <p>
-              trener wystąpień publicznych i medialnych, komunikacji kryzysowej, wykładowca akademicki, dziennikarz, producent tv i reżyser, prezenter, lektor. Przez 26 lat pracował w TVP (1989-2016) gdzie był reporterem, wydawcą, prezenterem i Redaktorem Naczelnym PANORAMY w telewizyjnej „Dwójce”. Autor projektów szkoleń medialnych i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów takich organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , Interia.pl, Idea Bank, BNP Paribas.
+              trener wystąpień publicznych i medialnych, komunikacji kryzysowej, wykładowca akademicki, dziennikarz, producent tv <br />i reżyser, prezenter, lektor. Przez 26 lat pracował w TVP (1989-2016) gdzie był reporterem, wydawcą, prezenterem <br />i Redaktorem Naczelnym PANORAMY <br />w telewizyjnej „Dwójce”. Autor projektów szkoleń medialnych i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów takich organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , Interia.pl, Idea Bank, BNP Paribas.
             </p>
           </motion.div>
           <motion.div className='text-box'
@@ -40,9 +40,9 @@ const Section2 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h3 className='section-title'> Mateusz Kwiatkowski</h3>
+            <h3 className='section-title'> Leszek Kabłak</h3>
             <p>
-              doświadczony radiowiec z długim stażem w branży. Przez wiele lat pracował w renomowanych stacjach radiowych, takich jak Radio Zet Gold, Radio Wawa oraz Radio Supernova, zdobywając szerokie spektrum umiejętności i wiedzy. Jego pasje obejmują nie tylko świat mediów, ale również sport i motoryzację. Tworzył podcasty, w których poruszał tematy związane z różnymi dyscyplinami, relacjonując najważniejsze wydarzenia ze świata sportu. Na warsztatach medialnych będzie dzielił się swoją wiedzą i doświadczeniem w zakresie pracy w radiu, produkcji audycji, a także technik prowadzenia ciekawych i angażujących podcastów radiowych. Jego zaangażowanie oraz profesjonalizm sprawiają, że jest cenionym i rozpoznawalnym głosem w świecie mediów.
+            Dziennikarz, operator, montażysta. Doświadczenie dziennikarskie zdobywał <br /> w Libii, Francji, Włoszech. Pracował między innymi dla RMF FM, TVP, Telewizji Puls, Polsatu, TVN24, PAP oraz największej telewizji informacyjnej w Europie, Euronews. Jest właścicielem domu produkcyjnego Kaizen Media. Jego pasją są podróże, filmowanie oraz języki obce (mówi po francusku, włosku, angielsku, hiszpańsku <br />i rosyjsku).
             </p>
           </motion.div>
 
