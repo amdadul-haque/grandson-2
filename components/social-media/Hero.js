@@ -23,14 +23,14 @@ const Hero = () => {
         >
           <source src="/images/social/hero.mp4" type="video/mp4"></source>
         </video>
-        <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto z-10"
+        <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto z-10 h-full bg-black/10 flex items-center justify-normal"
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-5">
+          {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-5">
           Social Media Marketing
-          </h1>
+          </h1> */}
         </motion.div>
       </div>
     </div >

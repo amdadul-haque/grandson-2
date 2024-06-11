@@ -27,7 +27,7 @@ export const socialMediaTexts = [
       },
       {
         title: "Treści video",
-        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty <br /> i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania"
+        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania."
       },
       {
         title: "Rolki",
@@ -48,7 +48,7 @@ export const socialMediaTexts = [
     description: "Efektywne zarządzanie mediami społecznościowymi wymaga nie tylko publikacji treści, ale również bieżącego monitorowania interakcji i odpowiedzi nie. W Grandson Media, przykładamy wielką wagę do aktywnego monitoringu i zarządzania Twoimi profilami społecznościowymi, co obejmuje: ",
     sections: [
       {
-        title: "Moderowanie Komentarzy i Zapytań",
+        title: "Moderowanie komentarzy i zapytań",
         description: "W ramach obsługi social media zapewniamy, że wszystkie komentarze i zapytania są szybko i profesjonalnie obsługiwane, co podkreśla zaangażowanie marki w budowanie relacji z klientami."
       },
       {

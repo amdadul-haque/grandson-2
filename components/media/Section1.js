@@ -5,7 +5,7 @@ import ContactUs from '../ContactUs';
 
 const Section1 = () => {
   return (
-    <div className='lg:min-h-[700px] w-full media-bg-1 py-8 md:py-16'
+    <div className='lg:h-[700px] w-full media-bg-1 py-8 md:py-16 flex items-center'
     >
       <div className='container-wrapper text-gray-100 h-full flex flex-col gap-5 sm:gap-8 justify-center items-center'>
 

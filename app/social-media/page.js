@@ -22,7 +22,7 @@ const PodcastPage = () => {
             <Section4 key={index} text={text} index={index} />
           ))
         }
-        <PageFooter />
+        <PageFooter isTransparent={true}/>
       </div>
     </>
   )

@@ -64,6 +64,12 @@ body {
 .social-bg-2{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/2.jpg) no-repeat center center/cover;
 }
+.social-bg-3{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/3.jpg) no-repeat center center/cover;
+}
+.social-bg-4{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/4.jpg) no-repeat center center/cover;
+}
 
 
 /* navbar hover effect */

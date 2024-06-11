@@ -25,7 +25,7 @@ const Section4 = ({ text, index }) => {
   ];
 
   return (
-    <div className={`lg:min-h-[700px] w-full ${index % 2 == 0 ? 'section-2' : 'social-bg-2'} py-8 md:py-16`}>
+    <div className={`lg:min-h-[700px] w-full ${index === 3 ? 'social-bg-4' : index === 1 ? 'social-bg-2' : 'section-2'} py-8 md:py-16`} id={`${index+1}`}>
       <div className='container-wrapper text-gray-100 h-full flex flex-col gap-5 sm:gap-8 justify-center items-center'>
         <motion.div className="text-box"
           initial={{ opacity: 0, y: -100 }}
