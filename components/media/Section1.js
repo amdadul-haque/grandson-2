@@ -16,7 +16,10 @@ const Section1 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: .6 }}
             >
-              <h2 className='section-header'>Szkolenia Medialne Mistrzowie Mediów</h2>
+              <h2 className='section-header'>
+              {/* Szkolenia Medialne Mistrzowie Mediów */}
+              Startujemy 7 września | Dołącz do nas!
+              </h2>
             </motion.div>
             <motion.div className='text-box mt-5 sm:mt-8'
               initial={{ opacity: 0, y: 150 }}
@@ -34,13 +37,7 @@ const Section1 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            {/* <h2 className='section-title'>Podcast Studio - Unikalna Oferta</h2>
-            <p className='text-center'> Nasza oferta obejmuje różnorodne formaty podcastów, dopasowane do różnych potrzeb i preferencji naszych klientów. Możemy zrealizować podcasty wieloosobowe, gdzie uczestniczy kilka osób, rozmowy dwóch osób, jak również łączenia z gośćmi z innych miast czy krajów. Dzięki wykorzystaniu wielu kamer w trakcie nagrywania, nasze produkcje są dynamiczne i atrakcyjne wizualnie, co przyciąga uwagę widzów.
-              <br />
-              <br />
-              Ponadto, nasze podcasty mogą być transmitowane w czasie rzeczywistym, co umożliwia interakcję z widzami w trakcie emisji. Po zakończeniu transmisji, mamy możliwość dowolnej edycji materiału, dostosowując go do potrzeb różnych platform mediów społecznościowych. Dzięki temu nasze podcasty są wszechstronne i mogą być efektywnie wykorzystywane w promocji i budowaniu zaangażowania online.
-            </p> */}
-            <ContactUs isTransparent="true" />
+            <ContactUs isTransparent="true" title="Masz pytanie dotyczące warsztatów? Skontaktuj się z nami. Chętnie odpowiemy." />
           </motion.div>
         </div>
       </div>

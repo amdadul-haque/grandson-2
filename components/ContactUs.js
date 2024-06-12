@@ -4,7 +4,7 @@ import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { toast } from "react-toastify";
 
-const ContactUs = ({isTransparent}) => {
+const ContactUs = ({ isTransparent, title }) => {
   const { ref, inView } = useInView({ threshold: 0.2 });
   const animation = useAnimation();
   useEffect(() => {
@@ -30,7 +30,7 @@ const ContactUs = ({isTransparent}) => {
   const [message, setMessage] = useState('')
 
   const [isLoading, setIsLoading] = useState(false);
-  
+
   const handleButtonClick = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -72,37 +72,42 @@ const ContactUs = ({isTransparent}) => {
     >
       <motion.div animate={animation} className="text-white w-full max-w-[1000px]">
         <h1 className="font-extrabold text-base xsm:text-[1.5rem] mb-6">
-        {
-          
-        }
-          Masz pomysł na kreatywną kampanię lub szukasz inspiracji? <br />
-          Połączmy siły i stwórzmy coś wyjątkowego!
-        </h1> 
+          {
+            title ? 
+            <span>{title}</span> 
+            :
+              <span>
+                Masz pomysł na kreatywną kampanię lub szukasz inspiracji? <br />
+                Połączmy siły i stwórzmy coś wyjątkowego!
+              </span>
+
+          }
+        </h1>
         <form onSubmit={handleButtonClick}>
           <div className="flex items-center gap-8 lg:flex-row xsm:flex-row flex-col">
-            <input 
-              type="email" 
-              name="email" 
-              id="email" 
-              placeholder="Email" 
-              className="w-full text-[13px] xsm:text-base px-2 py-3 bg-transparent border-b border-gray-1 text-white outline-none" 
-              required 
-              value={email} 
-              onChange={(e) => setEmail(e.target.value)} 
-            /> 
-            <input 
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              className="w-full text-[13px] xsm:text-base px-2 py-3 bg-transparent border-b border-gray-1 text-white outline-none"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
               type="text"
-              name="name" 
-              id="name" 
-              placeholder="Imię i Nazwisko" 
+              name="name"
+              id="name"
+              placeholder="Imię i Nazwisko"
               className="w-full px-2 py-3 text-[13px] xsm:text-base bg-transparent border-b border-gray-1 text-white outline-none"
               value={name}
               onChange={(e) => setName(e.target.value)}
-            /> 
-          </div> 
+            />
+          </div>
 
           <div>
-            <textarea 
+            <textarea
               name="Wiadomość"
               id="message"
               cols="30"
