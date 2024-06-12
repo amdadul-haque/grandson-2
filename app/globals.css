@@ -71,6 +71,20 @@ body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/social/4.jpg) no-repeat center center/cover;
 }
 
+.digital-bg-1{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/digital/1.jpg) no-repeat center center/cover;
+}
+
+.strategia-bg-1{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/strategia/1.jpg) no-repeat center center/cover;
+}
+.strategia-bg-2{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/strategia/2.jpg) no-repeat center center/cover;
+}
+.strategia-bg-3{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../public/images/strategia/3.jpg) no-repeat center center/cover;
+}
+
 
 /* navbar hover effect */
 .navBar ul li {
