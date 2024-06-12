@@ -14,7 +14,7 @@ const Section1 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: .6 }}
         >
-          <h2 className='section-header'>{strategia.section1.heading}</h2>
+          <h1 className='section-header'>{strategia.section1.heading}</h1>
         </motion.div>
         <div className='flex flex-col lg:flex-row gap-5 sm:gap-8 md:justify-between'>
           <motion.div className='text-box'

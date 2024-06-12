@@ -1,5 +1,4 @@
-import { Hero, PageFooter, Section1, Section2, Section3, Section4 } from '@/components/strategia';
-import { socialMediaTexts } from '@/data';
+import { Hero, Section1, Section2, Section3 } from '@/components/strategia';
 import React from 'react'
 
 export const metadata = {

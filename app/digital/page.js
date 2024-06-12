@@ -1,0 +1,29 @@
+import ContactUs from '@/components/ContactUs';
+import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/digital';
+import React from 'react'
+
+export const metadata = {
+  title: 'Agencja Digital Marketing Grandson Media - Usługi Cyfrowe',
+  description: 'Jesteśmy agencją digital marketingu, oferującą kompleksowe usługi cyfrowe i zautomatyzowane procesy biznesowe. Skontaktuj się z nami i osiągnij sukces w świecie cyfrowym.'
+};
+
+const MediaPage = () => {
+  return (
+    <>
+
+      <div className='overflow-hidden'>
+        {/* <Hero /> */}
+        <Section1 />
+        <Section2 />
+        {/* <ContactUs /> */}
+        <Section3 />
+        <Section4 />
+        <Section5 />
+      </div>
+    </>
+  )
+}
+
+export default MediaPage
+
+

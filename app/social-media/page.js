@@ -1,5 +1,5 @@
 import { Hero, PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
-import { socialMediaTexts } from '@/data';
+import { socialMediaTexts } from '@/public/data/social-media';
 import React from 'react'
 
 export const metadata = {

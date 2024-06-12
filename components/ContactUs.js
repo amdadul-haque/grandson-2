@@ -112,7 +112,7 @@ const ContactUs = ({ isTransparent, title }) => {
               id="message"
               cols="30"
               placeholder="Wiadomość"
-              className={`w-full mt-8 text-[13px] xsm:text-base p-2 bg-transparent border border-gray-1 text-white outline-none `}
+              className={`w-full mt-8 text-[13px] xsm:text-base p-2 bg-transparent border border-gray-1 text-white outline-none ${isTransparent ? 'h-auto' : 'h-[200px]'}`}
               // required
               value={message}
               onChange={(e) => setMessage(e.target.value)}

@@ -6,7 +6,7 @@ import { strategia } from '@/public/data/strategia'
 
 const Section3 = () => {
   return (
-    <div className='h-auto w-full bg-black/90 py-8 md:py-16 social-bg-3'
+    <div className='h-auto w-full bg-black/90 py-8 md:py-16 strategia-bg-3'
     >
       <div className='container-wrapper text-gray-100 h-full flex flex-col gap-5 sm:gap-8 justify-center items-center'>
         <motion.div className="text-box "
