@@ -71,16 +71,16 @@ const ContactUs = ({ isTransparent, title }) => {
       className={`w-full mx-auto flex justify-between items-center flex-col gap-16 ${isTransparent ? 'bg-transparent' : 'bg-black px-6 py-12 lg:py-24 lg:px-0 xsm:px-12'}`}
     >
       <motion.div animate={animation} className="text-white w-full max-w-[1000px]">
-        <h1 className="font-extrabold text-base xsm:text-[1.5rem] mb-6">
+        <h1 className="font-extrabold text-base xsm:text-[1.5rem] mb-6 leading-normal">
           {
-            title ? 
-            <span>{title}</span> 
-            :
+            title ?
+              <span dangerouslySetInnerHTML={{ __html: title }} />
+              :
               <span>
-                Masz pomysł na kreatywną kampanię lub szukasz inspiracji? <br />
+                Masz pomysł na kreatywną kampanię <br className={`${!isTransparent && 'hidden'}`} />
+                lub szukasz inspiracji? <br className={`${!isTransparent && 'hidden'}`} />
                 Połączmy siły i stwórzmy coś wyjątkowego!
               </span>
-
           }
         </h1>
         <form onSubmit={handleButtonClick}>

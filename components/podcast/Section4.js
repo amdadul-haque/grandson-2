@@ -13,7 +13,7 @@ const Section4 = () => {
             transition={{ duration: .6 }}
           >
             <h2 className='section-title'>Wybierz Nasze Studio Podcastowe</h2>
-            <p >GPodcasty to nie tylko ważny trend współczesnego świata mediów, ale również integralna
+            <p> Podcasty to nie tylko ważny trend współczesnego świata mediów, ale również integralna
               część skutecznej strategii komunikacyjnej, realizująca dynamiczne oraz angażujące dialogi z grupą docelową. W Podcast Studio Grandson Media, łączymy kreatywność, profesjonalizm i zaangażowanie, by dostarczyć niezapomniane doświadczenia słuchaczom i widzom. Niezależnie od branży czy celu, nasz zespół stworzy dla Ciebie treści podcastowe, które przyciągną uwagę i spełnią Twoje oczekiwania. Skontaktuj się z nami już teraz, aby rozpocząć wspólną podróż w świat fascynującej produkcji podcastów!
             </p>
           </motion.div>

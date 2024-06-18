@@ -17,8 +17,7 @@ const Section1 = () => {
               transition={{ duration: .6 }}
             >
               <h2 className='section-header'>
-              {/* Szkolenia Medialne Mistrzowie Mediów */}
-              Startujemy 7 września | Dołącz do nas!
+              Startujemy 7 września <br /> Dołącz do nas!
               </h2>
             </motion.div>
             <motion.div className='text-box mt-5 sm:mt-8'
@@ -37,7 +36,7 @@ const Section1 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <ContactUs isTransparent="true" title="Masz pytanie dotyczące warsztatów? Skontaktuj się z nami. Chętnie odpowiemy." />
+            <ContactUs isTransparent="true" title="Masz pytanie dotyczące warsztatów? <br/> Skontaktuj się z nami. <br/> Chętnie odpowiemy." />
           </motion.div>
         </div>
       </div>

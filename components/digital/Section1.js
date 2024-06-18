@@ -5,7 +5,7 @@ import ContactUs from '../ContactUs';
 
 const Section1 = () => {
   return (
-    <div className='w-full digital-bg-1 py-8 md:py-16 lg:pt-32 flex items-center'
+    <div className='w-full digital-bg-1 py-8 md:py-16 xl:py-28 flex items-center'
     >
       <div className='container-wrapper text-gray-100 h-full flex flex-col gap-5 sm:gap-8 justify-center items-center'>
 
@@ -25,7 +25,7 @@ const Section1 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: .6 }}
             >
-              <h2 className='section-title'>Digital Marketing - Twój sukces w nowoczesnym świeciee</h2>
+              <h2 className='section-title !text-left'>Digital Marketing <br /> - Twój sukces w nowoczesnym świeciee</h2>
               <p className='text-center'>
                 Jesteśmy agencją digital marketing i oferujemy kompleksowe usługi marketingu cyfrowego,
                 które obejmują szeroki zakres działań. Zaczynając od projektowania responsywnych stron
@@ -48,7 +48,8 @@ const Section1 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <ContactUs isTransparent="true" title="Masz pytanie dotyczące warsztatów? Skontaktuj się z nami. Chętnie odpowiemy." />
+            <ContactUs isTransparent="true" title="Masz pomysł na kreatywną kampanię lub szukasz inspiracji?
+ Połączmy siły i stwórzmy coś wyjątkowego!" />
           </motion.div>
         </div>
       </div>

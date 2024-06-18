@@ -15,7 +15,7 @@ const Section2 = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: .6 }}
             >
-              <h2 className='section-title'> Dlaczego Wybrać Nas jako Twoją Agencję Social
+              <h2 className='section-title'> Dlaczego Wybrać Nas jako <br /> Twoją Agencję Social
                 Media? </h2>
               <p>
                 Z Grandson Media zyskujesz partnera, który rozumie dynamikę cyfrowego świata i potrafi dostosować strategie social media do zmieniających się trendów i oczekiwań rynku. Nasze doświadczenie, kreatywność i technologiczna wiedza pozwalają nam oferować profesjonalne i innowacyjne podejście w branży.

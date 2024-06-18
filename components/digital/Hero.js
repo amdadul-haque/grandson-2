@@ -21,7 +21,7 @@ const Hero = () => {
           muted
           className="object-cover w-full h-full aspect-[4/3] sm:aspect-video"
         >
-          <source src="/images/media/hero.mp4" type="video/mp4"></source>
+          <source src="/images/digital/hero.mp4" type="video/mp4"></source>
         </video>
         <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto z-10"
           animate={{ opacity: 1 }}
@@ -29,8 +29,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-5">
-            Szkolenia Medialne <br /> Mistrzowie Mediów <br />
-            {/* <span className="text-base md:text-xl lg:text-2xl leading-3">Produkcja i Promocja</span> */}
+            {/* Szkolenia Medialne <br /> Mistrzowie Mediów <br /> */}
           </h1>
         </motion.div>
       </div>

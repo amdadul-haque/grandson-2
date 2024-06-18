@@ -12,7 +12,7 @@ const PodcastPage = () => {
     <>
 
       <div className='overflow-hidden'>
-        {/* <Hero /> */}
+        <Hero />
         <Section1 />
         <Section2 />
         <Section3 />

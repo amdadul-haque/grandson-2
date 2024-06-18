@@ -1,4 +1,3 @@
-import ContactUs from '@/components/ContactUs';
 import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/digital';
 import React from 'react'
 
@@ -12,10 +11,9 @@ const MediaPage = () => {
     <>
 
       <div className='overflow-hidden'>
-        {/* <Hero /> */}
+        <Hero />
         <Section1 />
         <Section2 />
-        {/* <ContactUs /> */}
         <Section3 />
         <Section4 />
         <Section5 />

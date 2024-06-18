@@ -12,7 +12,7 @@ export const strategia = {
         description: "Pierwszym krokiem w naszym procesie jest dogłębna analiza Twojej działalności, konkurencji oraz grupy docelowej. Dokładna analiza pozwala na identyfikację rynku. Zapewnia to naszym klientom przewagę, pomagając im wyróżnić się na tle innych. Korzystając z zaawansowanych narzędzi analitycznych, zidentyfikujemy kluczowe segmenty branży oraz opracujemy profil Twojego idealnego klienta. Dzięki temu nasze strategie są nie tylko skuteczne, ale przede wszystkim dopasowane do specyfiki Twojej firmy."
       },
       {
-        title: "Integracja Technik ATL i BTL dla Skutecznej Reklamy",
+        title: "Integracja technik ATL i BTL dla skutecznej reklamy",
         description: "Efektywne kampanie reklamowe wymagają zarówno szerokiego zasięgu, jak i precyzyjnego targetowania. Dlatego w Grandson Media łączymy techniki Above The Line (ATL) z działaniami Below The Line (BTL) tworząc synergiczne kampanie, które zwiększają świadomość marki i jednocześnie angażują klientów na poziomie bardziej osobistym. Od reklam telewizyjnych i radiowych po cyfrowe działania marketingowe i eventy, zapewniamy kompleksowe pokrycie wszystkich kanałów komunikacji. "
       },
       {
