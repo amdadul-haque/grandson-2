@@ -209,3 +209,11 @@ body {
     opacity: 0.1;
   }
 }
+
+
+
+/* ======================= europa =================== */
+
+.europa-container{
+  @apply w-[90%] 2xl:w-full max-w-screen-xl mx-auto;
+}
