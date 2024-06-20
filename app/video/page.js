@@ -1,3 +1,4 @@
+import Layout from '@/components/Layout';
 import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
 import React from 'react'
 
@@ -8,13 +9,15 @@ export const metadata = {
 
 const VideosPage = () => {
   return (
-    <div className='overflow-hidden'>
-      <Hero />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-    </div>
+    <Layout>
+      <div className='overflow-hidden'>
+        <Hero />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+      </div>
+    </Layout>
   )
 }
 

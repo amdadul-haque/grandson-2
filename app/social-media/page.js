@@ -1,3 +1,4 @@
+import Layout from '@/components/Layout';
 import { Hero, PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
 import { socialMediaTexts } from '@/public/data/social-media';
 import React from 'react'
@@ -10,21 +11,18 @@ export const metadata = {
 const PodcastPage = () => {
 
   return (
-    <>
-
-      <div className='overflow-hidden'>
-        <Hero />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        {
-          socialMediaTexts.map((text, index) => (
-            <Section4 key={index} text={text} index={index} />
-          ))
-        }
-        <PageFooter isTransparent={true}/>
-      </div>
-    </>
+    <Layout>
+      <Hero />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      {
+        socialMediaTexts.map((text, index) => (
+          <Section4 key={index} text={text} index={index} />
+        ))
+      }
+      <PageFooter isTransparent={true} />
+    </Layout>
   )
 }
 
