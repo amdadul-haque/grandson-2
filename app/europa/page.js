@@ -6,13 +6,13 @@ const Europa = () => {
     <>
 
       <Navbar />
-      <div className='europa-container mt-2 mb-16 lg:mb-20'>
+      <div className='europa-container mt-12 mb-16 lg:mb-20'>
         <div className='lg:grid lg:grid-cols-5 gap-5'>
           <div className='lg:col-span-4'>
             <Hero />
             <Today />
           </div>
-          <div className='lg:col-span-1 bg-pink-400 h-[150vh] sticky top-20 z-0'>
+          <div className='lg:col-span-1 bg-pink-400 h-[150vh] sticky top-20 z-0 rounded-lg'>
 
           </div>
         </div>

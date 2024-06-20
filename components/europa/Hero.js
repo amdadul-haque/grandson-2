@@ -4,7 +4,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='mt-5 mb-5'>
+    <div className=' mb-5'>
       <div>
 
       </div>
