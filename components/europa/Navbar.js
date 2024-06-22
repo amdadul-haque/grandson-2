@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <header className='w-full bg-white sticky top-0 drop-shadow-xl z-10'>
       <div className='europa-container flex items-center justify-between py-2'>
-        <Image src='/images/europa/logo-2.png' alt='Europa Logo' width={314} height={57} className='w-auto h-8 md:h-10 lg:h-12 xl:h-14' />
+        <Image src='/images/europa/logo-2.png' alt='Europa Logo' width={314} height={57} className='w-auto h-8 md:h-10 lg:h-12' />
         <FaBars className='text-2xl lg:hidden'
           onClick={() => { setMobileMenu(!mobileMenu) }}
         />
