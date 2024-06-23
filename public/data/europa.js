@@ -58,6 +58,10 @@ export const today = [
   },
 ]
 
+export const SocialMedia = [
+
+]
+
 
 export const spotlight = [
   {

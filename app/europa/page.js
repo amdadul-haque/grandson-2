@@ -1,4 +1,4 @@
-import { Footer, Hero, Navbar, Spotlight, Today } from '@/components/europa'
+import { Footer, Hero, Navbar, SocialMedia, Spotlight, Today } from '@/components/europa'
 import { openSans } from '@/fonts'
 import { latest, sports, storylines, today } from '@/public/data/europa'
 import Image from 'next/image'
@@ -11,7 +11,7 @@ const Europa = () => {
 
       <Navbar />
       <div className='europa-container mt-12 mb-16 lg:mb-20'>
-        <div className='lg:grid lg:grid-cols-4 gap-5'>
+        <div className='lg:grid lg:grid-cols-4 gap-8'>
           <div className='lg:col-span-3'>
             <Hero />
             <Today title="DZISIAJ" data={today} />
@@ -39,7 +39,8 @@ const Europa = () => {
             </div>
             <Today title="Sports News" data={sports} />
           </div>
-          <div className='lg:col-span-1 lg:h-[2265px] sticky top-20 z-0 rounded-lg'>
+          <div className='lg:col-span-1 lg:h-[2710px] sticky top-20 z-0 rounded-lg'>
+            <SocialMedia />
             <Spotlight />
           </div>
         </div>
