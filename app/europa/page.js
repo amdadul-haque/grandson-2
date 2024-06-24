@@ -1,4 +1,4 @@
-import { Footer, Hero, Navbar, SocialMedia, Spotlight, Today } from '@/components/europa'
+import { Footer, Hero, Navbar, SocialMedia, Spotlight, Today, TrendingVideo } from '@/components/europa'
 import { openSans } from '@/fonts'
 import { latest, sports, storylines, today } from '@/public/data/europa'
 import Image from 'next/image'
@@ -15,6 +15,7 @@ const Europa = () => {
           <div className='lg:col-span-3'>
             <Hero />
             <Today title="DZISIAJ" data={today} />
+            <TrendingVideo />
             <Today title="Latest News" data={latest} className='mt-20' />
             <div className='mt-10 border border-black/50 p-5 rounded-lg'>
               <div className='flex items-center gap-3 mb-3'>

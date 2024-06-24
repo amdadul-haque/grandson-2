@@ -23,12 +23,12 @@ const Today = ({ title, data, className }) => {
                     <p className='my-4'> <span className='text-blue-500'>{item.tags[0]}</span>  <span className='text-black/50 ml-2'> {item.tags[1]}</span></p>
                     : null
                 }
-                <h1 className='text-xl lg:text-[30px] my-3 leading-snug'>
+                <h1 className='text-xl lg:text-[30px] my-3 leading-snug text-black font-medium'>
                   {item.title}
                   <span className='text-red-euro'>{item.titleRed}</span>
                   <span className='text-blue-euro font-bold'>{item.titleBlue}</span>
                 </h1>
-                <p className='text-base text-black/90'>{item.description}</p>
+                <p className='text-base text-black/80'>{item.description}</p>
               </div>
             </div>
           ))

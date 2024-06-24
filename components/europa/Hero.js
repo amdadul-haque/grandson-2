@@ -11,10 +11,19 @@ const Hero = () => {
       <div className='flex flex-col md:flex-row lg:flex-col gap-x-4'>
         <div className='w-full md:w-2/3 lg:w-full  '>
           <div className='rounded-lg overflow-hidden flex flex-col lg:flex-row'>
-            <div className='overflow-hidden w-full lg:w-2/3'>
-              <Image src='/images/europa/hero/hero.png' alt='Hero' width={611} height={204} className='w-full h-[350px] object-cover hover:scale-[1.03]' />
+            <div className='overflow-hidden w-full lg:w-3/5'>
+              <Image src='/images/europa/hero/main_picture.png' alt='Hero' width={611} height={204} className='w-full h-[350px] object-cover hover:scale-[1.03]' />
             </div>
-            <div className='w-full lg:w-1/3 flex flex-col bg-blue-euro'>
+            <div className='w-full lg:w-2/5 flex flex-col justify-center gap-4 bg-blue-euro p-5 lg:p-8'>
+              <div className='flex items-center gap-3'>
+                <Image src='/images/europa/hero/euro.png' alt='Euro' width={50} height={50} className='' />
+                <p className='text-white text-lg md:text-xl lg:text-2xl font-bold'>EuroPodcast</p>
+              </div>
+              <div>
+                <h2 className='text-yellow-500 text-2xl lg:text-3xl font-bold'>Jak Populiści chcą podpalić Europę?</h2>
+                <h4 className='text-white text-lg lg:text-2xl mt-2 mb-3'>Gość: RAFAŁ TRZASKOWSKI</h4>
+                <p className='text-white'>Często korzystają z dezinformacji i teorii spiskowych. Rozprzestrzeniają fałszywe informacje, żeby zasiać chaos i podzielić społeczeństwo.</p>
+              </div>
             </div>
           </div>
         </div>
