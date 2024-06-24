@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        search: '0px 0px 10px 1px rgba(0, 0, 0, 0.2)',
+      },
       backgroundImage: {
         hero: 'url("/images/hero.png")',
       },
@@ -28,6 +31,7 @@ module.exports = {
         "sm": "640px",
         "md": "768px",
         "lg": "1024px",
+        "llg": "1120px",
         "xl": "1280px",
         "2xl": "1320px",
       },
