@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       <div className='overflow-hidden'>
         {children}
       </div>
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
       <FacebookMsg />
 

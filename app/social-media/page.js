@@ -1,5 +1,6 @@
+import { Hero, ContactUs } from '@/components';
 import Layout from '@/components/Layout';
-import { Hero, PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
+import { PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
 import { socialMediaTexts } from '@/public/data/social-media';
 import React from 'react'
 
@@ -12,7 +13,7 @@ const PodcastPage = () => {
 
   return (
     <Layout>
-      <Hero />
+      <Hero videoDir="social"/>
       <Section1 />
       <Section2 />
       <Section3 />
@@ -22,6 +23,7 @@ const PodcastPage = () => {
         ))
       }
       <PageFooter isTransparent={true} />
+      <ContactUs />
     </Layout>
   )
 }

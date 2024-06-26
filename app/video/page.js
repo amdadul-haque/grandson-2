@@ -1,5 +1,6 @@
+import { ContactUs, Hero } from '@/components';
 import Layout from '@/components/Layout';
-import { Hero, Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
+import { Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
 import React from 'react'
 
 export const metadata = {
@@ -10,13 +11,12 @@ export const metadata = {
 const VideosPage = () => {
   return (
     <Layout>
-      <div className='overflow-hidden'>
-        <Hero />
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-      </div>
+      <Hero videoDir="videos" />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <ContactUs />
     </Layout>
   )
 }

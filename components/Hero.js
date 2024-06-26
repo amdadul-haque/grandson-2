@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { BsChevronDown } from "react-icons/bs";
 
-const Hero = () => {
+const Hero = ({ videoDir }) => {
 
   const videoRef2 = useRef();
   useEffect(() => {
@@ -28,7 +28,7 @@ const Hero = () => {
           muted
           className="object-cover w-full h-full aspect-[4/3] sm:aspect-video"
         >
-          <source src="/images/media/hero.mp4" type="video/mp4"></source>
+          <source src={`/images/${videoDir}/hero.mp4`} type="video/mp4"></source>
         </video>
         <motion.div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full mx-auto z-10"
           animate={{ opacity: 1 }}

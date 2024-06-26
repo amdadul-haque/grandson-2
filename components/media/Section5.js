@@ -18,7 +18,7 @@ const Section5 = () => {
               Jeśli chcesz doskonalić swoje umiejętności komunikacyjne i osiągnąć sukces w świecie mediów, to warsztaty "Mistrzowie Mediów" są dla Ciebie. Skontaktuj się z nami już teraz i dołącz do naszej społeczności ambitnych i kreatywnych profesjonalistów!
               <br />
               <br />
-              Zapraszamy do udziału w naszych dedykowanych warsztatach medialnych, które są skrojone na miarę Twoich potrzeb w  umiejętności komunikacyjnych nezbędnych w mediach.
+              Zapraszamy do udziału w naszych dedykowanych warsztatach medialnych, które są skrojone na miarę Twoich potrzeb <br /> w umiejętności komunikacyjnych nezbędnych w mediach.
             </p>
           </motion.div>
           <motion.div className='text-box'

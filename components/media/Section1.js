@@ -17,7 +17,7 @@ const Section1 = () => {
               transition={{ duration: .6 }}
             >
               <h2 className='section-header'>
-              Startujemy 7 września <br /> Dołącz do nas!
+                Startujemy 7 września <br /> Dołącz do nas!
               </h2>
             </motion.div>
             <motion.div className='text-box mt-5 sm:mt-8'
@@ -25,7 +25,9 @@ const Section1 = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: .6 }}
             >
-              <h3 className='section-title'>Profesjonalne Warsztaty Dziennikarskie: <br /> Rozwijaj Swoje Umiejętności Komunikacyjne</h3>
+              <h3 className='section-title'>Profesjonalne Warsztaty Dziennikarskie: <br />
+                <span className='text-xl md:text-2xl'>Rozwijaj Swoje Umiejętności Komunikacyjne</span>
+              </h3>
               <p className='text-center'>
                 Mistrzowie Mediów to seria warsztatów medialnych, które mają na celu wyposażenie uczestników w niezbędne komunikacyjne dzięki którym osiągną sukces w biznesie i karierze dziennikarskiej.
               </p>

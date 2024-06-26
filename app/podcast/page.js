@@ -1,6 +1,5 @@
-import { Layout } from '@/components';
-import ContactUs from '@/components/ContactUs';
-import { Hero, Section1, Section2, Section3, Section4, } from '@/components/podcast'
+import { ContactUs, Hero, Layout } from '@/components';
+import { Section1, Section3, Section4, } from '@/components/podcast'
 import React from 'react'
 
 export const metadata = {
@@ -11,12 +10,12 @@ export const metadata = {
 const PodcastPage = () => {
   return (
     <Layout>
-      <Hero />
+      <Hero videoDir="podcast"/>
       <Section1 />
-      {/* <Section2 /> */}
       <ContactUs />
       <Section3 />
       <Section4 />
+      <ContactUs />
     </Layout>
   )
 }
