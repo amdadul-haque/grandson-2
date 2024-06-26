@@ -45,7 +45,6 @@ const Hero = ({ videoDir }) => {
             onClick={handleScroll}
           >
             <BsChevronDown className="text-4xl animate-bounce" />
-            <h2>Scroll</h2>
           </button>
         </div>
       </div>

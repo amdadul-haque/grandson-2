@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import { BsChevronDown } from "react-icons/bs";
 
 // react icons
 import {
@@ -42,6 +43,12 @@ const Hero = () => {
     videoRef.current.play();
   }, []);
 
+const handleScroll = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth"
+    });
+  };
 
   const linkIconStyle = " text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer";
   return (
@@ -82,6 +89,13 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      <div className="mx-auto absolute bottom-[5vh] left-1/2 translate-x-[-50%]">
+          <button
+            onClick={handleScroll}
+          >
+            <BsChevronDown className="text-4xl animate-bounce" />
+          </button>
+        </div>
     </div >
   );
 };

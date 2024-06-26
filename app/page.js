@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import { AboutUs, Hero, Portfolio, Services, SplashScreen } from "@/components/home";
+import { ContactUs } from "@/components";
 
 export default function Home() {
   const pathname = usePathname();
@@ -32,6 +33,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <AboutUs />
+      <ContactUs />
     </Layout>
   );
 }
