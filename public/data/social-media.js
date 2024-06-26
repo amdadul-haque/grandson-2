@@ -5,11 +5,11 @@ export const socialMediaTexts = [
     sections: [
       {
         title: "Analiza Konkurencji",
-        description: "Naszym celem jest zidentyfikowanie mocnych i słabych stron konkurencji. W tym procesie dokładnie przeanalizujemy treści, aktywność oraz sposób komunikacji. Poprzez zgłębianie tych informacji będziemy w stanie lepiej zrozumieć dynamikę rynku oraz dostosować nasze strategie w celu osiągnięcia przewagi konkurencyjnej."
+        description: "Naszym celem jest zidentyfikowanie mocnych i słabych stron konkurencji. <br> W tym procesie dokładnie przeanalizujemy treści, aktywność oraz sposób komunikacji. Poprzez zgłębianie tych informacji będziemy w stanie lepiej zrozumieć dynamikę rynku oraz dostosować nasze strategie w celu osiągnięcia przewagi konkurencyjnej."
       },
       {
         title: "Dobór Kanałów <br /> i Narzędzi",
-        description: "Wybieramy platformy społecznościowe najlepiej pasujące do profilu Twojej marki i celów kampanii. Dla każdej z nich opracowujemy odrębne podejście i strategię treści."
+        description: "Wybieramy platformy społecznościowe najlepiej pasujące do profilu Twojej marki <br /> i celów kampanii. Dla każdej z nich opracowujemy odrębne podejście <br /> i strategię treści."
       },
       {
         title: "Monitorowanie <br /> i Optymalizacja",
@@ -27,7 +27,7 @@ export const socialMediaTexts = [
       },
       {
         title: "Treści video",
-        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania."
+        description: "Jesteśmy specjalistami w video marketingu i produkujemy krótkie spoty <br> i animowane explainery, które mogą zwiększyć zaangażowanie i są łatwe do udostępniania."
       },
       {
         title: "Rolki",
@@ -39,7 +39,7 @@ export const socialMediaTexts = [
       },
       {
         title: "Infografiki",
-        description: "Projektujemy informacyjne i estetyczne infografiki, które pomagają w zrozumieniu skomplikowanych danych lub procesów. Dzięki regularnej publikacji i utrzymaniu spójnego harmonogramu, Grandson Media zapewnia, że Twoja marka pozostaje widoczna i aktywna w oczach obecnych oraz potencjalnych klientów. Nasze działania nie tylko budują świadomość marki, ale także prowokują do dyskusji i interakcji, co jest fundamentem budowania lojalnej społeczności."
+        description: "Projektujemy informacyjne i estetyczne infografiki, które pomagają w zrozumieniu skomplikowanych danych lub procesów. Dzięki regularnej publikacji i utrzymaniu spójnego harmonogramu, Grandson Media zapewnia, że Twoja marka pozostaje widoczna i aktywna w oczach obecnych oraz potencjalnych klientów. Nasze działania nie tylko budują świadomość marki, ale także prowokują do dyskusji <br> i interakcji, co jest fundamentem budowania lojalnej społeczności."
       },
     ]
   },
@@ -71,7 +71,7 @@ export const socialMediaTexts = [
     sections: [
       {
         title: " Strategiczne planowanie",
-        description: "Rozwijamy kampanie oparte na głębokiej analizie danych demograficznych i zachowań użytkowników, co pozwala na maksymalne dopasowanie do grupy docelowej."
+        description: "Rozwijamy kampanie oparte na głębokiej analizie danych demograficznych <br> i zachowań użytkowników, co pozwala na maksymalne dopasowanie do grupy docelowej."
       },
       {
         title: "Kreatywne wykonanie",

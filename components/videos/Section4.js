@@ -12,24 +12,14 @@ const Section4 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <p >Grandson Media to nie tylko agencja marketingowa - jesteśmy Twoim partnerem w osiąganiu
-              sukcesu. Nasza wiedza, doświadczenie i pasja do tworzenia video oraz video marketingu
-              pozwalają nam wyróżnić się na rynku i pomagać naszym klientom osiągnąć ich cele
-              marketingowe. Jeśli poszukujesz agencji, która oferuje profesjonalizm i innowacyjne
-              rozwiązania w dziedzinie produkcji wideo, video content marketingu, to jesteśmy tutaj, aby Ci pomóc i wspólnie stworzyć wyjątkowe projekty, które
-              przyciągną uwagę i osiągną zamierzone cele.</p>
+            <p >Grandson Media to nie tylko agencja marketingowa - jesteśmy Twoim partnerem w osiąganiu sukcesu. Nasza wiedza, doświadczenie i pasja do tworzenia video oraz video marketingu pozwalają nam wyróżnić się na rynku i pomagać naszym klientom osiągnąć ich cele marketingowe. Jeśli poszukujesz agencji, która oferuje profesjonalizm <br /> i innowacyjne rozwiązania w dziedzinie produkcji wideo, video marketingu, to jesteśmy tutaj, aby Ci pomóc i wspólnie stworzyć wyjątkowe projekty, które przyciągną uwagę i osiągną zamierzone cele.</p>
           </motion.div>
           <motion.div className='text-box'
             initial={{ opacity: 0, x: 150 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <p >Skontaktuj się z nami już dziś i podziel się swoją wizją! Jesteśmy gotowi wesprzeć Cię w
-              realizacji Twojego projektu video, niezależnie od jego skali czy charakteru. Dzięki naszej
-              wiedzy, doświadczeniu i zaangażowaniu, możemy wspólnie stworzyć wyjątkowe treści
-              video, które przyciągną uwagę Twojej grupy docelowej i pomogą osiągnąć Twoje cele
-              marketingowe. Napisz do nas i opowiedz nam o swoim pomyśle - jesteśmy tutaj, aby go
-              zrealizować! </p>
+            <p >Skontaktuj się z nami już dziś i podziel się swoją wizją Jesteśmy gotowi wesprzeć Cię w realizacji Twojego projektu video, niezależnie od jego skali czy charakteru. Dzięki naszej wiedzy, doświadczeniu <br /> i zaangażowaniu, możemy wspólnie stworzyć wyjątkowe treści video, które przyciągną uwagę Twojej grupy docelowej i pomogą osiągnąć Twoje cele marketingowe. Napisz do nas i opowiedz nam o swoim pomyśle - jesteśmy tutaj, aby go zrealizować! </p>
           </motion.div>
         </div>
       </div>

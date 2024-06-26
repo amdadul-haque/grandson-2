@@ -15,10 +15,12 @@ const Section3 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: .6 }}
           >
-            <Link href="#1" className='text-box hover:bg-black transition-all duration-300'><h3 className="uppercase section-title">Dla Biznesu <br /> i Przyszłych Dziennikarzy </h3></Link>
-            <Link href="#2" className='text-box hover:bg-black transition-all duration-300'><h3 className="uppercase section-title">Content Marketing</h3></Link>
-            <Link href="#3" className='text-box hover:bg-black transition-all duration-300'><h3 className="uppercase section-title">Zarządzanie i Monitoring <br /> Mediów Społecznościowych</h3></Link>
-            <Link href="#4" className='text-box hover:bg-black transition-all duration-300'><h3 className="uppercase section-title"> Reklama i Kampanie Promocyjne <br /> w Social Media</h3></Link>
+            <Link href="#1" className='text-box hover:bg-black transition-all duration-300'><h3 className=" section-title">Dla biznesu
+           <br /> i przyszłych dziennikarzy </h3></Link>
+            <Link href="#2" className='text-box hover:bg-black transition-all duration-300 flex items-center justify-center'><h3 className="section-title !mb-0">Content Marketing</h3></Link>
+            <Link href="#3" className='text-box hover:bg-black transition-all duration-300'><h3 className=" section-title">Zarządzanie i monitoring <br />
+            Mediów Społecznościowych</h3></Link>
+            <Link href="#4" className='text-box hover:bg-black transition-all duration-300'><h3 className="section-title"> Reklama i Kampanie Promocyjne <br /> w Social Media</h3></Link>
           </motion.div>
         </div>
       </div>

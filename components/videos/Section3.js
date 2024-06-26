@@ -19,12 +19,8 @@ const Section3 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <h3 className='section-title'> Doświadczenie i Profesjonalizm w Produkcji Wideo </h3>
-            <p >Grandson Media, jako agencja video marketing, posiada ponad dziesięcioletnie
-              doświadczenie w branży produkcji wideo. Nasz zespół składa się z wykwalifikowanych
-              pasjonatów, posiadających wiedzę, energię i talent do tworzenia video na najwyższym
-              poziomie. Dzięki naszemu bogatemu doświadczeniu, jesteśmy w stanie sprostać nawet
-              najbardziej wymagającym projektom, dostarczając profesjonalne i innowacyjne rozwiązania.</p>
+            <h3 className='section-title'> Doświadczenie i Profesjonalizm <br />  w Produkcji Wideo </h3>
+            <p >Grandson Media, jako agencja video marketing, posiada ponad dziesięcioletnie doświadczenie w branży produkcji wideo. Nasz zespół składa się z wykwalifikowanych pasjonatów, posiadających wiedzę, energię i talent do tworzenia video na najwyższym poziomie. Dzięki naszemu bogatemu doświadczeniu, jesteśmy w stanie sprostać nawet najbardziej wymagającym projektom, dostarczając profesjonalne i innowacyjne rozwiązania.</p>
           </motion.div>
           <motion.div className='text-box '
             initial={{ opacity: 0, x: 150 }}
@@ -35,7 +31,7 @@ const Section3 = () => {
             <p >Jako profesjonaliści od video marketingu, uważamy że każdy klient jest wyjątkowy, dlatego też każdy projekt traktujemy indywidualnie. Nasze podejście skupia się na głębokim zrozumieniu
               potrzeb i celów klienta, co pozwala nam dostarczyć spersonalizowane rozwiązania, które
               przynoszą realne rezultaty. Dążymy do budowania trwałych relacji z naszymi klientami,
-              opartych na wzajemnym zaufaniu i zrozumieniu. </p>
+              opartych na wzajemnym zaufaniu <br /> i zrozumieniu. </p>
           </motion.div>
           <motion.div className='text-box '
             initial={{ opacity: 0, x: -150 }}
@@ -44,10 +40,8 @@ const Section3 = () => {
           >
             <h3 className='section-title'> Skuteczność i Efektywność  </h3>
             <p >Naszym celem jest nie tylko tworzenie pięknych produkcji wideo, ale przede wszystkim
-              osiąganie konkretnych celów marketingowych. Dlatego naszą ambicją jest generowanie
-              wysokiej konwersji i zaangażowanie odbiorców. Dzięki naszemu zaawansowanemu
-              podejściu do produkcji video oraz skutecznej strategii marketingowej, pomagamy naszym
-              klientom osiągać sukces na rynku. </p>
+              osiąganie konkretnych celów marketingowych. Dlatego naszą ambicją jest generowanie wysokiej konwersji <br /> i zaangażowanie odbiorców. Dzięki naszemu zaawansowanemu
+              podejściu do produkcji video oraz skutecznej strategii marketingowej, pomagamy naszym klientom osiągać sukces na rynku. </p>
           </motion.div>
           <motion.div className='text-box '
             initial={{ opacity: 0, x: 150 }}
