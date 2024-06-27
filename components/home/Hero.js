@@ -22,12 +22,14 @@ const Hero = () => {
   const words = ["KREACJA", "MARKETING", "PASJA"];
   const [text, setText] = useState(words[index]);
   const subtitles = ['tworzymy historie', 'inspirujemy marki', 'integrujemy społeczności'];
+
   const [subtitle, setSubtitle] = useState(subtitles[index])
   const typing = () => {
     setText(words[index]);
     setSubtitle(subtitles[index]);
     setIndex((index) => index + 1);
   };
+
   useEffect(() => {
     if (index < words.length) {
       setTimeout(typing, 2000);
@@ -69,7 +71,7 @@ const handleScroll = () => {
           AGENCJA MARKETINGOWA 360
         </h2>
         <h1 className="text-[3.2rem] transition-all duration-300 xsm:text-[4rem] font-extrabold  ">
-          {text}
+          {text} 
         </h1>
         <h4 className="text-[0.9rem] xsm:text-[1.1rem]">
           <p>{subtitle}</p>

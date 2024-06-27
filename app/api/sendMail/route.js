@@ -10,12 +10,14 @@ export async function POST(request) {
       auth: {
         user: 'maciej.luczynski@grandson.media',
         pass: 'bscd jllh crxc wkve',
+        // pass: process.env.NODEMAILER_PW,
       }
     })
 
     const mailOption = {
       from: fromMail,
       to: "hello@grandson.media",
+      // to: "amdad.zatiq@gmail.com",
       subject: `${name} is looking for you.`,
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;">
@@ -28,8 +30,8 @@ export async function POST(request) {
             </div>
         </div>
     `
-    };
-
+  };
+  
 
     await transporter.sendMail(mailOption)
     return NextResponse.json({ message: "Email Sent Successfully" }, { status: 200 })
