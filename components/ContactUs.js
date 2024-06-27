@@ -60,6 +60,7 @@ const ContactUs = ({ isTransparent, title }) => {
       setIsLoading(false);
       toast.success('Email Sent Successfully');
       setEmail('');
+      setName('');
       setMessage('');
     }
   };
@@ -130,8 +131,9 @@ const ContactUs = ({ isTransparent, title }) => {
           </div>
 
           <div>
-            <button type='submit' disabled={isLoading} className="uppercase xsm:py-4 px-4 py-2 xsm:px-8 bg-white text-black font-bold hover:bg-brand hover:text-white transition-colors duration-300">
-              Wyślij
+            <button type='submit' disabled={isLoading} className="uppercase xsm:py-4 px-4 py-2 xsm:px-8 bg-white text-black font-bold hover:bg-brand hover:text-white transition-colors duration-300 disabled:bg-white/50 disabled:text-black/50 disabled:cursor-not-allowed">
+              Wyślij 
+              {isLoading ? "..." : ""}
             </button>
           </div>
         </form>

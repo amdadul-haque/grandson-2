@@ -7,29 +7,29 @@ export async function POST(request) {
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
-      // host: 'smtpro.zoho.in',
-      // port: 465,
-      // secure: true,
       auth: {
-        // user: 'amdadul1807107@gmail.com',
-        // pass: 'ctyplxmrxbcoasox',
         user: 'maciej.luczynski@grandson.media',
         pass: 'bscd jllh crxc wkve',
-        // user: process.env.NODEMAILER_EMAIL,
-        // pass: process.env.NODEMAILER_PW,
       }
     })
 
     const mailOption = {
       from: fromMail,
-      // to: "hello@grandson.media",
-      to: "haque1807107@stud.kuet.ac.bd",
+      to: "hello@grandson.media",
       subject: `${name} is looking for you.`,
       html: `
-        <h3>You have a new message from ${fromMail}</h3>
-        <p>${message}</p>
-        `
-    }
+        <div style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;">
+            <h2 style="color: #333;">You have a new message</h2>
+            <div style="background-color: #fff; padding: 15px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <p style="font-size: 16px; line-height: 1.6;"><strong>Name:</strong> ${name}</p>
+                <p style="font-size: 16px; line-height: 1.6;"><strong>Email:</strong> ${fromMail}</p>
+                <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
+                <p style="font-size: 16px; line-height: 1.6;">${message}</p>
+            </div>
+        </div>
+    `
+    };
+
 
     await transporter.sendMail(mailOption)
     return NextResponse.json({ message: "Email Sent Successfully" }, { status: 200 })
