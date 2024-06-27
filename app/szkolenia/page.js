@@ -10,7 +10,7 @@ export const metadata = {
 const MediaPage = () => {
   return (
     <Layout>
-      <Hero videoDir="media" />
+      <Hero />
       <Section1 />
       <Section2 />
       <ContactUs title="Masz pytanie dotyczące warsztatów? <br/> Skontaktuj się z nami. Chętnie odpowiemy" />

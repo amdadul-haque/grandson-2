@@ -1,11 +1,9 @@
 "use client";
-import { poppins } from "@/fonts";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
-import { AboutUs, Hero, Portfolio, Services, SplashScreen } from "@/components/home";
+import { AboutUs, Hero, Oferta, Portfolio, SplashScreen } from "@/components/home";
 import { ContactUs } from "@/components";
-import FlippingText from "@/components/FlippingText";
 
 export default function Home() {
   const pathname = usePathname();
@@ -30,9 +28,8 @@ export default function Home() {
         isLoading={isLoading}
         finishLoading={() => setIsLoading(false)}
       />
-      {/* <FlippingText /> */}
       <Hero />
-      <Services />
+      <Oferta />
       <Portfolio />
       <AboutUs />
       <ContactUs />

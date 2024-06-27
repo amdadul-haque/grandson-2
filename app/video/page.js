@@ -11,7 +11,7 @@ export const metadata = {
 const VideosPage = () => {
   return (
     <Layout>
-      <Hero videoDir="videos" />
+      <Hero />
       <Section1 />
       <Section2 />
       <Section3 />

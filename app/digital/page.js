@@ -11,7 +11,7 @@ export const metadata = {
 const MediaPage = () => {
   return (
     <Layout>
-      <Hero videoDir="digital" />
+      <Hero />
       <Section1 />
       <Section2 />
       <Section3 />

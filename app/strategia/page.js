@@ -12,7 +12,7 @@ const PodcastPage = () => {
 
   return (
     <Layout>
-      <Hero videoDir="strategia"/>
+      <Hero/>
       <Section1 />
       <Section2 />
       <Section3 />

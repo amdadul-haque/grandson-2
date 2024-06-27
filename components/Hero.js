@@ -6,7 +6,7 @@ import { BsChevronDown } from "react-icons/bs";
 import { usePathname } from "next/navigation";
 import { pageTitles } from "@/public/data/common";
 
-const Hero = ({ videoDir }) => {
+const Hero = () => {
 
   const videoRef = useRef();
   useEffect(() => {
@@ -31,6 +31,7 @@ const Hero = ({ videoDir }) => {
     return () => clearInterval(textChangeInterval);
   }, [texts, interval]);
 
+  const videoDir = pageTitles.filter((title) => title.page === pathname)[0].videDir;
   return (
     <div id="start" className="w-full xl:h-[100vh] bg-gray-950 text-white flex items-center justify-center text-center">
       <div className="w-full z-0 relative h-full">

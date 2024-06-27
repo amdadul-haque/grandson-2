@@ -10,7 +10,7 @@ export const metadata = {
 const PodcastPage = () => {
   return (
     <Layout>
-      <Hero videoDir="podcast"/>
+      <Hero />
       <Section1 />
       <ContactUs />
       <Section3 />
