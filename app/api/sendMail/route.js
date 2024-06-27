@@ -11,21 +11,19 @@ export async function POST(request) {
       // port: 465,
       // secure: true,
       auth: {
-        user: 'amdadul1807107@gmail.com',
-        // user: 'hello@grandson.media',
-        // pass: 'wzhujflleuttdcyp',
-        pass: 'ctyplxmrxbcoasox',
+        // user: 'amdadul1807107@gmail.com',
+        // pass: 'ctyplxmrxbcoasox',
+        user: 'maciej.luczynski@grandson.media',
+        pass: 'bscd jllh crxc wkve',
         // user: process.env.NODEMAILER_EMAIL,
         // pass: process.env.NODEMAILER_PW,
-        // NODEMAILER_EMAIL = 'amdadul1807107@gmail.com'
-        // NODEMAILER_PW = "wzhujflleuttdcyp"
       }
     })
 
     const mailOption = {
       from: fromMail,
-      to: "hello@grandson.media",
-      // to: "haque1807107@stud.kuet.ac.bd",
+      // to: "hello@grandson.media",
+      to: "haque1807107@stud.kuet.ac.bd",
       subject: `${name} is looking for you.`,
       html: `
         <h3>You have a new message from ${fromMail}</h3>
