@@ -33,10 +33,10 @@ const Navbar = () => {
   const navLinks = [
     { name: "Start", link: "/#start" },
     { name: "Video", link: "/video" },
-    { name: "Podcast", link: "/podcast" },
     { name: "Szkolenia", link: "/szkolenia" },
-    { name: "Social Media", link: "/social-media" },
     { name: "Digital", link: "/digital" },
+    { name: "Podcast", link: "/podcast" },
+    { name: "Social Media", link: "/social-media" },
     { name: "Strategia", link: "/strategia" },
     { name: "Oferta", link: "/#oferta" },
     { name: "Case Studies", link: "/#casestudies" },
