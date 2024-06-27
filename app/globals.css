@@ -210,6 +210,10 @@ body {
   }
 }
 
+.linkIconStyle {
+  @apply text-[1.2rem] text-[#c7c7c7] hover:text-[#ffff] transition-colors duration-300 cursor-pointer;
+}
+
 
 
 /* ======================= europa =================== */

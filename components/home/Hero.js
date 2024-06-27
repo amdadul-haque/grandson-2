@@ -5,16 +5,11 @@ import { BsChevronDown } from "react-icons/bs";
 // react icons
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
-  FaPinterestP,
-  FaBehance,
   FaYoutube,
   FaMailBulk,
 } from "react-icons/fa";
 
-// frammer motion
-// import { motion } from "framer-motion";
 
 const Hero = () => {
   // change the background text in hero section
@@ -44,6 +39,8 @@ const Hero = () => {
   useEffect(() => {
     videoRef.current.play();
   }, []);
+
+  
 
 const handleScroll = () => {
     window.scrollTo({

@@ -3,12 +3,14 @@ import React, { useEffect, useRef, useState } from "react";
 ;
 import { motion } from "framer-motion";
 import { BsChevronDown } from "react-icons/bs";
+import { usePathname } from "next/navigation";
+import { pageTitles } from "@/public/data/common";
 
 const Hero = ({ videoDir }) => {
 
-  const videoRef2 = useRef();
+  const videoRef = useRef();
   useEffect(() => {
-    videoRef2.current.play();
+    videoRef.current.play();
   }, []);
 
   const handleScroll = () => {
@@ -17,12 +19,23 @@ const Hero = ({ videoDir }) => {
       behavior: "smooth"
     });
   };
+  const interval = 2000;
+  const pathname = usePathname().split('/')[1];
+  const texts = pageTitles.filter((title) => title.page === pathname)[0].texts;
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  useEffect(() => {
+    const textChangeInterval = setInterval(() => {
+      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+    }, interval);
+
+    return () => clearInterval(textChangeInterval);
+  }, [texts, interval]);
 
   return (
     <div id="start" className="w-full xl:h-[100vh] bg-gray-950 text-white flex items-center justify-center text-center">
       <div className="w-full z-0 relative h-full">
         <video
-          ref={videoRef2}
+          ref={videoRef}
           autoplay
           loop
           muted
@@ -35,10 +48,16 @@ const Hero = ({ videoDir }) => {
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-5">
-            {/* Szkolenia Medialne <br /> Mistrzowie Mediów <br /> */}
-          </h1>
-
+          {texts.map((text, index) => (
+            <h1
+              key={index}
+              className={`absolute inset-0 flex items-center justify-center transition-transform duration-700 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-center leading-5 ${index === currentTextIndex ? 'transform rotateX-0' : 'transform rotateX-90'
+                }`}
+            >
+              {text}
+            </h1>
+          ))}
+          
         </motion.div>
         <div className="mx-auto absolute bottom-[10vh] left-1/2 translate-x-[-50%]">
           <button
