@@ -2,7 +2,7 @@ export const pageTitles = [
   {
     page: "video",
     videDir: "videos",
-    texts: ["VIDEO MARKETING", "PRODUKCJA I PROMOCJA"]
+    texts: ["VIDEO <br> MARKETING", "PRODUKCJA I PROMOCJA"]
   },
   {
     page: "szkolenia",

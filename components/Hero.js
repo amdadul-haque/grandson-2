@@ -54,11 +54,11 @@ const Hero = () => {
               key={index}
               className={`absolute inset-0 max-w-[80%] mx-auto flex items-center justify-center transition-transform duration-700 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-center leading-snug ${index === currentTextIndex ? 'transform rotateX-0' : 'transform rotateX-90'
                 }`}
-            >
-              {text}
-            </h1>
+
+              dangerouslySetInnerHTML={{ __html: text }}
+            />
           ))}
-          
+
         </motion.div>
         <div className="mx-auto absolute bottom-1 xl:bottom-[10vh] left-1/2 translate-x-[-50%]">
           <button
