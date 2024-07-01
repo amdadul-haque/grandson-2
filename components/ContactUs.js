@@ -1,34 +1,12 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+"use client"; 
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 
 const ContactUs = ({ isTransparent, title }) => {
-  const { ref, inView } = useInView({ threshold: 0.2 });
-  const animation = useAnimation();
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        opacity: 1,
-        scale: 1,
-        transition: {
-          duration: 0.4,
-        },
-      });
-    } else {
-      animation.start({
-        opacity: 0,
-        scale: 0.5,
-      });
-    }
-  }, [inView]);
-
-
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
-
   const [isLoading, setIsLoading] = useState(false);
 
   const handleButtonClick = async (e) => {
@@ -48,10 +26,8 @@ const ContactUs = ({ isTransparent, title }) => {
       });
       const result = await response.json();
       if (result.success) {
-        // Handle success (e.g., show a success message)
         console.log(result.message);
       } else {
-        // Handle error (e.g., show an error message)
         console.error(result.message);
       }
     } catch (error) {
@@ -68,10 +44,13 @@ const ContactUs = ({ isTransparent, title }) => {
   return (
     <div
       id="kontakt"
-      ref={ref}
       className={`w-full mx-auto flex justify-between items-center flex-col gap-16 ${isTransparent ? 'bg-transparent' : 'bg-black px-6 py-12 lg:py-24 lg:px-0 xsm:px-12'}`}
     >
-      <motion.div animate={animation} className="text-white w-full max-w-[1000px]">
+      <motion.div className="text-white w-full max-w-[1000px]"
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: .6 }}
+      >
         <h1 className="font-extrabold text-base xsm:text-[1.5rem] mb-6 leading-normal">
           {
             title ?
@@ -132,7 +111,7 @@ const ContactUs = ({ isTransparent, title }) => {
 
           <div>
             <button type='submit' disabled={isLoading} className="uppercase xsm:py-4 px-4 py-2 xsm:px-8 bg-white text-black font-bold hover:bg-brand hover:text-white transition-colors duration-300 disabled:bg-white/50 disabled:text-black/50 disabled:cursor-not-allowed">
-              Wyślij 
+              Wyślij
               {isLoading ? "..." : ""}
             </button>
           </div>

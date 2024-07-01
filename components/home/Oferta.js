@@ -32,12 +32,12 @@ const Oferta = () => {
         >
           {services.map((service, index) => (
             <Link key={index} href={service?.link}
-              className="bg-[#36363856] transition-colors duration-300 hover:bg-[#464647] p-3 py-4 sm:p-6 md:p-8 lg:p-12 text-[#ffff] relative "
+              className="bg-[#36363856] transition-colors duration-300 hover:bg-[#464647] p-3 py-4 sm:p-5 md:p-6 lg:p-10 text-[#ffff] relative "
             >
               <Image src={service.icon} width={40} height={40} />
               <h2 className="my-3 font-extrabold">{service.title}</h2>
               <p className="text-[13px]">{service.description}</p>
-              <div className="absolute top-0 left-0 h-full w-full border-[10px] sm:border-[16px] md:border-[24px] lg:border-[30px] border-[#222] hover:border-0 transition-all duration-300">
+              <div className="absolute top-0 left-0 h-full w-full border-[8px] sm:border-[12px] md:border-[16px] lg:border-[20px] border-[#222] hover:border-0 transition-all duration-300">
 
               </div>
             </Link>

@@ -1,8 +1,5 @@
 'use client'
 import React, { useEffect, useState } from "react";
-
-// react icons
-import { BsChevronDown } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import { motion } from "framer-motion";
 

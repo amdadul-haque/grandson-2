@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
-import { AboutUs, Hero, Oferta, Portfolio, SplashScreen } from "@/components/home";
+import { Team, Hero, Oferta, Portfolio, SplashScreen } from "@/components/home";
 import { ContactUs } from "@/components";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
       <Hero />
       <Oferta />
       <Portfolio />
-      <AboutUs />
+      <Team />
       <ContactUs />
     </Layout>
   );
