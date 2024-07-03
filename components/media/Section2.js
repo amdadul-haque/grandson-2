@@ -24,7 +24,9 @@ const Section2 = () => {
             <Image src='/images/media/dariusz_lukawski.jpg' alt='Dariusz Łukawski' width={300} height={300} className="mx-auto mb-6" />
             <h3 className='section-title'> Dariusz Łukawski </h3>
             <p>
-              Trener wystąpień publicznych <br /> i medialnych, komunikacji kryzysowej, wykładowca akademicki, dziennikarz, producent tv <br />i reżyser, prezenter, lektor. Przez 26 lat pracował w TVP (1989-2016) gdzie był reporterem, wydawcą, prezenterem <br />i Redaktorem Naczelnym PANORAMY <br />w telewizyjnej „Dwójce”. Autor projektów szkoleń medialnych i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów takich organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , Interia.pl, Idea Bank, BNP Paribas.
+              Trener wystąpień publicznych i medialnych, komunikacji kryzysowej, wykładowca  Uniwersytetu Warszawskiego, dziennikarz Teleexpressu. Od ponad 30 lat w mediach , głównie w TVP gdzie był reporterem, wydawcą, prezenterem i Redaktorem Naczelnym PANORAMY w telewizyjnej „Dwójce” oraz  redakcji publicystyki. 
+Autor projektów szkoleń medialnych i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów takich organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , AMGEN, EUROVIA, BNP Paribas, Konfederacja Pracodawców Lewiatan. 
+Trener mówców TEDx University of Warsaw.
             </p>
           </motion.div>
           <motion.div className='text-box'
