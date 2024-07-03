@@ -75,7 +75,7 @@ const Team = () => {
                 <img
                   src="/images/team_popup.png"
                   alt="about-background"
-                  className="w-full object-cover"
+                  className="w-50 object-cover"
                 />
               </div>
             </div>
