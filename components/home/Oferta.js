@@ -37,7 +37,7 @@ const Oferta = () => {
               <Image src={service.icon} width={40} height={40} />
               <h2 className="my-3 font-extrabold">{service.title}</h2>
               <p className="text-[13px]">{service.description}</p>
-              <div className="absolute top-0 left-0 h-full w-full border-[2px] sm:border-[3px] md:border-[4px] lg:border-[5px] border-[#FFFFFF] hover:border-0 transition-all duration-300">
+              <div className="absolute top-0 left-0 h-full w-full border-[2px] sm:border-[3px] md:border-[4px] lg:border-[5px] border-[#362F2F] hover:border-0 transition-all duration-300">
 
               </div>
             </Link>
