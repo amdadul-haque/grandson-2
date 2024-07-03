@@ -7,7 +7,7 @@ export const pageTitles = [
   {
     page: "szkolenia",
     videDir: "media",
-    texts: ["SZKOLENIA <be> MEDIALNE", "WARSZTATY DZIENNIKARSKIE", "STARTUJEMY 7 WRZEŚNIA!"]
+    texts: ["SZKOLENIA MEDIALNE", "WARSZTATY DZIENNIKARSKIE", "STARTUJEMY 7 WRZEŚNIA!"]
   },
   {
     page: "digital",
