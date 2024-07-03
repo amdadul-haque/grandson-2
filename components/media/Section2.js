@@ -21,7 +21,7 @@ const Section2 = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: .6 }}
           >
-            <Image src='/images/media/dariusz_lukawski2.jpeg' alt='Dariusz Łukawski' width={300} height={300} className="mx-auto mb-6" />
+            <Image src='/images/media/dariusz_lukawski2.jpg' alt='Dariusz Łukawski' width={300} height={300} className="mx-auto mb-6" />
             <h3 className='section-title'> Dariusz Łukawski </h3>
             <p>
               Trener wystąpień publicznych i medialnych, komunikacji kryzysowej, wykładowca  Uniwersytetu Warszawskiego, dziennikarz Teleexpressu. Od ponad 30 lat w mediach , głównie w TVP gdzie był reporterem, wydawcą, prezenterem i Redaktorem Naczelnym PANORAMY w telewizyjnej „Dwójce” oraz  redakcji publicystyki. 
