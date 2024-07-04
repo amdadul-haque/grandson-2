@@ -43,7 +43,7 @@ const Section3 = () => {
         >
           <h3 className='section-title'>Dla Biznesu i Przyszłych Dziennikarzy </h3>
           <p>
-            Nasza oferta warsztatów skierowana jest nie tylko do indywidualnych uczestników, ale także do firm, które pragną przeszkolić swoich pracowników <br /> w  komunikacji medialnej. Warsztaty są dedykowane osobom pracującym w biznesie, chcącym doskonalić swoje umiejętności komunikacyjne <br /> w celu skuteczniejszego zarządzania firmą. Ponadto, kierujemy je również do przyszłych dziennikarzy, <br /> którzy pragną zdobyć praktyczną wiedzę i umiejętności niezbędne do rozpoczęcia kariery w mediach.
+            Nasza oferta warsztatów skierowana jest nie tylko do indywidualnych uczestników, ale także do firm,  <br /> które pragną przeszkolić swoich pracowników w  komunikacji medialnej. Warsztaty są dedykowane osobom pracującym w biznesie, chcącym doskonalić swoje umiejętności komunikacyjne w celu skuteczniejszego zarządzania firmą. Ponadto, kierujemy je również do przyszłych dziennikarzy, <br /> którzy pragną zdobyć praktyczną wiedzę i umiejętności niezbędne do rozpoczęcia kariery w mediach.
           </p>
         </motion.div>
       </div>
