@@ -22,7 +22,7 @@ const Section3 = () => {
           >
             <h3 className='section-title'>Doświadczeni Nauczyciele </h3>
             <p>
-              Nasi instruktorzy to doświadczeni dziennikarze i managerowie, którzy posiadają głęboką wiedzę praktyczną z zakresu strategii komunikacyjnych, mediów społecznościowych oraz publicznego występowania. Dzięki ich ekspertyzie uczestnicy będą mieć dostęp do najnowszych trendów i praktyk branżowych.
+              Nasi instruktorzy to doświadczeni dziennikarze i managerowie, którzy posiadają głęboką wiedzę praktyczną z zakresu strategii komunikacyjnych, mediów społecznościowych oraz publicznego występowania. Dzięki ich ekspertyzie uczestnicy będą mieć<br />dostęp do najnowszych trendów i praktyk branżowych.
             </p>
           </motion.div>
           <motion.div className='text-box'
