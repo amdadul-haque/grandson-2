@@ -21,7 +21,7 @@ const Section4 = () => {
           >
             <h3 className='section-title'>Indywidualne Konsultacje </h3>
             <p>
-              Na każdym etapie warsztatów nasi uczestnicy mają możliwość korzystania <br /> z indywidualnych konsultacji z naszymi doświadczonymi instruktorami. Dzięki temu każdy uczestnik może uzyskać personalizowane wsparcie i porady, dopasowane do swoich konkretnych potrzeb i celów.
+              Na każdym etapie warsztatów nasi uczestnicy mają możliwość korzystania <br /> z indywidualnych konsultacji z naszymi doświadczonymi instruktorami. Dzięki <br /> temu każdy uczestnik może uzyskać personalizowane wsparcie i porady, dopasowane do swoich konkretnych potrzeb i celów.
               <br />
               Podczas tych sesji konsultacyjnych, nasi instruktorzy są dostępni, aby udzielać fachowych wskazówek, dzielić się swoim doświadczeniem oraz pomagać <br /> w rozwiązywaniu konkretnych problemów związanych z komunikacją medialną. Indywidualne podejście pozwala nam skupić się na potrzebach każdego uczestnika, zapewniając mu pełne wsparcie w zdobywaniu i doskonaleniu umiejętności.
             </p>
