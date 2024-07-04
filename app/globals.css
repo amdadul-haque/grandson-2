@@ -21,6 +21,7 @@ body {
 
 .text-box>p {
   text-align: justify;
+  text-align-last: justify;
 }
 
 .h1{
