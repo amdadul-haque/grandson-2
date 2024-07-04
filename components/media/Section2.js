@@ -46,7 +46,7 @@ const Section2 = () => {
             <Image src="/images/media/leszek_kablak.jpg" alt="Leszek Kabłak" width={300} height={300} className="mx-auto mb-6" />
             <h3 className='section-title'> Leszek Kabłak</h3>
             <p>
-              Dziennikarz, operator, montażysta. Doświadczenie dziennikarskie zdobywał <br /> w Libii, Francji, Włoszech. Pracował między innymi dla RMF FM, TVP, Telewizji Puls, Polsatu, TVN24, PAP oraz największej telewizji informacyjnej w Europie, Euronews. Jest właścicielem domu produkcyjnego Kaizen Media. Jego pasją są <br /> podróże, filmowanie oraz języki obce <br /> (mówi po francusku, włosku, angielsku, hiszpańsku i rosyjsku).
+              Dziennikarz, operator, montażysta. Doświadczenie dziennikarskie zdobywał <br /> w Libii, Francji, Włoszech. Pracował między innymi dla RMF FM, TVP, Telewizji Puls, Polsatu, TVN24, PAP oraz największej telewizji informacyjnej w Europie, Euronews. Jest właścicielem domu produkcyjnego Kaizen Media. Jego pasją są <br /> podróże, filmowanie oraz języki obce (mówi po francusku, włosku, <br /> angielsku, hiszpańsku i rosyjsku).
             </p>
           </motion.div>
 
