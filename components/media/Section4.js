@@ -41,7 +41,7 @@ const Section4 = () => {
           >
             <h3 className='section-title'> Analiza Przykładów <br /> i Strategii Komunikacyjnych</h3>
             <p>
-              Podczas warsztatów, nasi instruktorzy prezentują praktyczne przykłady, analizując zastosowane strategie komunikacyjne <br />oraz ich efektywność. Korzystając z rzeczywistych case studies i przykładów z życia zawodowego, uczestnicy mają okazję bliżej przyjrzeć się różnym podejściom i technikom komunikacji w praktyce. Analiza tych przykładów pozwala uczestnikom lepiej zrozumieć, jakie strategie są najskuteczniejsze w konkretnych sytuacjach, oraz jak można je dostosować do własnych potrzeb i celów komunikacyjnych. Dzięki temu, uczestnicy zyskują praktyczną wiedzę i umiejętności, które mogą bezpośrednio zastosować w swojej pracy zawodowej.
+              Podczas warsztatów, nasi instruktorzy prezentują praktyczne przykłady, analizując zastosowane strategie komunikacyjne <br />oraz ich efektywność. Korzystając <br /> z rzeczywistych case studies i przykładów z życia zawodowego, uczestnicy mają okazję bliżej przyjrzeć się różnym podejściom i technikom komunikacji w praktyce. Analiza tych przykładów pozwala uczestnikom lepiej zrozumieć, jakie strategie są najskuteczniejsze w konkretnych sytuacjach, oraz jak można je dostosować do własnych potrzeb i celów komunikacyjnych. Dzięki temu, uczestnicy zyskują praktyczną wiedzę i umiejętności, które mogą bezpośrednio zastosować w swojej pracy zawodowej.
             </p>
           </motion.div>
 
