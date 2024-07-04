@@ -31,7 +31,7 @@ const Section4 = () => {
           >
             <h3 className='section-title'>Interaktywne Ćwiczenia</h3>
             <p>
-              Podczas warsztatów uczestnicy biorą udział w interaktywnych ćwiczeniach praktycznych, które pozwalają im <br /> w rzeczywistości stosować poznane techniki i strategie komunikacyjne. Poprzez zaangażowanie w różnorodne scenariusze <br /> i symulacje sytuacji z życia zawodowego, uczestnicy mają możliwość natychmia-<br />stowego praktycznego zastosowania zdobytej wiedzy. To nie tylko świetna okazja do doskonalenia umiejętności, ale także do budowania pewności siebie w praktyce pod okiem doświadczonych profesjona-<br />listów. Dzięki temu, uczestnicy mogą eksperymentować, popełniać błędy i uczyć się na nich, co prowadzi do szybszego <br />i bardziej skutecznego rozwoju ich umiejętności komunikacyjnych.
+              Podczas warsztatów uczestnicy biorą udział w interaktywnych ćwiczeniach praktycznych, które pozwalają im <br /> w rzeczywistości stosować poznane techniki i strategie komunikacyjne. Poprzez zaangażowanie w różnorodne scenariusze <br /> i symulacje sytuacji z życia zawodowego, uczestnicy mają możliwość natychmia-<br />stowego praktycznego zastosowania zdobytej wiedzy. To nie tylko świetna okazja do doskonalenia umiejętności, ale także do budowania pewności siebie w praktyce pod okiem doświadczonych profesjona-<br />listów. Dzięki temu, uczestnicy mogą eksperymentować, popełniać błędy i uczyć się na nich, co prowadzi do szybszego <br />i bardziej skutecznego rozwoju <br />ich umiejętności komunikacyjnych.
             </p>
           </motion.div>
           <motion.div className='text-box'
@@ -41,7 +41,7 @@ const Section4 = () => {
           >
             <h3 className='section-title'> Analiza Przykładów <br /> i Strategii Komunikacyjnych</h3>
             <p>
-              Podczas warsztatów, nasi instruktorzy prezentują praktyczne przykłady, analizując zastosowane strategie komunikacyjne oraz ich efektywność. Korzystając z rzeczywistych case studies i przykładów z życia zawodowego, uczestnicy mają okazję bliżej przyjrzeć się różnym podejściom i technikom komunikacji w praktyce. Analiza tych przykładów pozwala uczestnikom lepiej zrozumieć, jakie strategie są najskuteczniejsze w konkretnych sytuacjach, oraz jak można je dostosować do własnych potrzeb i celów komunikacyjnych. Dzięki temu, uczestnicy zyskują praktyczną wiedzę i umiejętności, które mogą bezpośrednio zastosować w swojej pracy zawodowej.
+              Podczas warsztatów, nasi instruktorzy prezentują praktyczne przykłady, analizując zastosowane strategie komunikacyjne <br />oraz ich efektywność. Korzystając z rzeczywistych case studies i przykładów z życia zawodowego, uczestnicy mają okazję bliżej przyjrzeć się różnym podejściom i technikom komunikacji w praktyce. Analiza tych przykładów pozwala uczestnikom lepiej zrozumieć, jakie strategie są najskuteczniejsze w konkretnych sytuacjach, oraz jak można je dostosować do własnych potrzeb i celów komunikacyjnych. Dzięki temu, uczestnicy zyskują praktyczną wiedzę i umiejętności, które mogą bezpośrednio zastosować w swojej pracy zawodowej.
             </p>
           </motion.div>
 
