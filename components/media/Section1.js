@@ -29,7 +29,7 @@ const Section1 = () => {
                 <span className='text-xl md:text-2xl'>Rozwijaj Swoje Umiejętności Komunikacyjne</span>
               </h3>
               <p className='text-center'>
-                Mistrzowie Mediów to seria warsztatów medialnych, które mają na celu wyposażenie uczestników w niezbędne narzędzia komunikacyjne, <br /> dzięki którym osiągną sukces w biznesie i karierze dziennikarskiej.
+                Mistrzowie Mediów to seria warsztatów medialnych, które mają na celu wyposażenie uczestników w niezbędne narzędzia komunikacyjne,<br />dzięki którym osiągną sukces w biznesie i karierze dziennikarskiej.
               </p>
             </motion.div>
           </div>
