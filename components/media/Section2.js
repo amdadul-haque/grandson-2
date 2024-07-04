@@ -24,7 +24,7 @@ const Section2 = () => {
             <Image src='/images/media/dariusz_lukawski2.jpg' alt='Dariusz Łukawski' width={300} height={300} className="mx-auto mb-6" />
             <h3 className='section-title'> Dariusz Łukawski </h3>
             <p className="!text-justify">
-              Trener wystąpień publicznych <br /> i medialnych, komunikacji kryzysowej, wykładowca Warszawskiego, dziennikarz Teleexpressu. Od ponad 30 lat w mediach , głównie w TVP gdzie był reporterem, wydawcą, prezenterem i Redaktorem Naczelnym PANORAMY w telewizyjnej „Dwójce” oraz  redakcji publicystyki. Autor projektów szkoleń medialnych i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów  organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , AMGEN, EUROVIA, BNP Paribas, Konfederacja Pracodawców Lewiatan. Trener mówców TEDx University of Warsaw.
+              Trener wystąpień publicznych <br /> i medialnych, komunikacji kryzysowej, wykładowca Warszawskiego, dziennikarz Teleexpressu. Od ponad 30 lat w mediach , głównie w TVP gdzie był reporterem, wydawcą, prezenterem i Redaktorem Naczelnym PANORAMY w telewizyjnej „Dwójce” oraz  redakcji publicystyki. Autor projektów szkoleń medialnych <br /> i komunikacji kryzysowej, z którego doświadczenia skorzystały setki menedżerów  organizacji jak: Ministerstwo Finansów, Deutsche Bank, Ikea, Arval , AMGEN, EUROVIA, BNP Paribas, Konfederacja Pracodawców Lewiatan. Trener mówców TEDx University of Warsaw.
             </p>
           </motion.div>
           <motion.div className='text-box'
@@ -46,7 +46,7 @@ const Section2 = () => {
             <Image src="/images/media/leszek_kablak.jpg" alt="Leszek Kabłak" width={300} height={300} className="mx-auto mb-6" />
             <h3 className='section-title'> Leszek Kabłak</h3>
             <p>
-              Dziennikarz, operator, montażysta. Doświadczenie dziennikarskie zdobywał <br /> w Libii, Francji, Włoszech. Pracował między innymi dla RMF FM, TVP, Telewizji Puls, Polsatu, TVN24, PAP oraz największej telewizji informacyjnej w Europie, Euronews. Jest właścicielem domu produkcyjnego Kaizen Media. Jego pasją są podróże, filmowanie oraz języki obce (mówi po francusku, włosku, angielsku, hiszpańsku <br />i rosyjsku).
+              Dziennikarz, operator, montażysta. Doświadczenie dziennikarskie zdobywał <br /> w Libii, Francji, Włoszech. Pracował między innymi dla RMF FM, TVP, Telewizji Puls, Polsatu, TVN24, PAP oraz największej telewizji informacyjnej w Europie, Euronews. Jest właścicielem domu produkcyjnego Kaizen Media. Jego pasją są podróże, filmowanie oraz języki obce <br /> (mówi po francusku, włosku, angielsku, hiszpańsku i rosyjsku).
             </p>
           </motion.div>
 
