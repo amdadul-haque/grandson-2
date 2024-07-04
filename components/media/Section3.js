@@ -32,7 +32,7 @@ const Section3 = () => {
           >
             <h3 className='section-title'>Kompleksowe Szkolenie Medialne</h3>
             <p>
-              Warsztaty "Mistrzowie Mediów" oferują kompleksowe szkolenie biznesowo medialne, które obejmuje szeroki zakres tematyczny - od realizowania newsów techniki wystąpień publicznych po strategie budowania marki w mediach społecznościowych. Bez względu na obszar zainteresowania, uczestnicy otrzymają umiejętności, <br /> które mogą od razu zastosować w praktyce.
+              Warsztaty "Mistrzowie Mediów" oferują kompleksowe szkolenie biznesowo medialne, które obejmuje szeroki zakres tematyczny - od realizowania newsów techniki wystąpień publicznych po strategie budowania marki w mediach społecznościowych. <br /> Bez względu na obszar zainteresowania, uczestnicy otrzymają umiejętności, które mogą od razu zastosować w praktyce.
             </p>
           </motion.div>
         </div>
