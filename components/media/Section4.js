@@ -31,7 +31,7 @@ const Section4 = () => {
           >
             <h3 className='section-title'>Interaktywne Ćwiczenia</h3>
             <p>
-              Podczas warsztatów uczestnicy biorą udział w interaktywnych ćwiczeniach praktycznych, które pozwalają im <br /> w rzeczywistości stosować poznane techniki i strategie komunikacyjne. Poprzez zaangażowanie w różnorodne scenariusze <br /> i symulacje sytuacji z życia zawodowego, uczestnicy mają możliwość natychmia-<br />stowego praktycznego zastosowania zdobytej wiedzy. To nie tylko świetna okazja do doskonalenia umiejętności, ale także do budowania pewności siebie w praktyce pod okiem doświadczonych profesjona-<br />listów. Dzięki temu, uczestnicy mogą eksperymentować, popełniać błędy i uczyć się na nich, co prowadzi do szybszego i bardziej skutecznego rozwoju ich umiejętności komunikacyjnych.
+              Podczas warsztatów uczestnicy biorą udział w interaktywnych ćwiczeniach praktycznych, które pozwalają im <br /> w rzeczywistości stosować poznane techniki i strategie komunikacyjne. Poprzez zaangażowanie w różnorodne scenariusze <br /> i symulacje sytuacji z życia zawodowego, uczestnicy mają możliwość natychmia-<br />stowego praktycznego zastosowania zdobytej wiedzy. To nie tylko świetna okazja do doskonalenia umiejętności, ale także do budowania pewności siebie w praktyce pod okiem doświadczonych profesjona-<br />listów. Dzięki temu, uczestnicy mogą eksperymentować, popełniać błędy i uczyć się na nich, co prowadzi do szybszego <br />i bardziej skutecznego rozwoju ich umiejętności komunikacyjnych.
             </p>
           </motion.div>
           <motion.div className='text-box'
