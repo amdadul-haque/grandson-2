@@ -1,4 +1,5 @@
 import { ContactUs, Hero, Layout } from '@/components';
+import SplashContainer from '@/components/home/SplashContainer';
 import { Section1, Section3, Section4, } from '@/components/podcast'
 import React from 'react'
 
@@ -10,6 +11,7 @@ export const metadata = {
 const PodcastPage = () => {
   return (
     <Layout>
+      <SplashContainer />
       <Hero />
       <Section1 />
       <ContactUs />

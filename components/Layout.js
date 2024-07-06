@@ -2,7 +2,6 @@
 import React from 'react'
 import { FacebookMsg } from './home'
 import Navbar from './Navbar'
-import ContactUs from './ContactUs'
 import Footer from './Footer'
 import AnimatedCursor from 'react-animated-cursor'
 
@@ -13,10 +12,8 @@ const Layout = ({ children }) => {
       <div className='overflow-hidden'>
         {children}
       </div>
-      {/* <ContactUs /> */}
       <Footer />
       <FacebookMsg />
-
       <AnimatedCursor
         innerSize={8}
         outerSize={17}

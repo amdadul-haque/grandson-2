@@ -1,4 +1,5 @@
 import { Hero, ContactUs } from '@/components';
+import SplashContainer from '@/components/home/SplashContainer';
 import Layout from '@/components/Layout';
 import { PageFooter, Section1, Section2, Section3, Section4 } from '@/components/social-media';
 import { socialMediaTexts } from '@/public/data/social-media';
@@ -13,6 +14,7 @@ const PodcastPage = () => {
 
   return (
     <Layout>
+      <SplashContainer />
       <Hero/>
       <Section1 />
       <Section2 />

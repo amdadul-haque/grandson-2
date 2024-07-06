@@ -2,8 +2,6 @@ import { ToastContainer } from "react-toastify";
 import "./globals.css";
 import 'react-toastify/dist/ReactToastify.css';
 import { poppins } from "@/fonts";
-import AnimatedCursor from "react-animated-cursor";
-
 
 export const metadata = {
   title: {

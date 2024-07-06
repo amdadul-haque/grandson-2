@@ -8,7 +8,6 @@ const Europa = () => {
 
   return (
     <div className={openSans.className}>
-
       <Navbar />
       <div className='europa-container mt-12 mb-16 lg:mb-20'>
         <div className='lg:grid lg:grid-cols-4 gap-8'>

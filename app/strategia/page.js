@@ -1,4 +1,5 @@
 import { Hero, ContactUs } from '@/components';
+import SplashContainer from '@/components/home/SplashContainer';
 import Layout from '@/components/Layout';
 import { Section1, Section2, Section3 } from '@/components/strategia';
 import React from 'react'
@@ -12,6 +13,7 @@ const PodcastPage = () => {
 
   return (
     <Layout>
+      <SplashContainer />
       <Hero/>
       <Section1 />
       <Section2 />

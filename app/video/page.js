@@ -1,4 +1,5 @@
 import { ContactUs, Hero } from '@/components';
+import SplashContainer from '@/components/home/SplashContainer';
 import Layout from '@/components/Layout';
 import { Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
 import React from 'react'
@@ -11,6 +12,7 @@ export const metadata = {
 const VideosPage = () => {
   return (
     <Layout>
+      <SplashContainer />
       <Hero />
       <Section1 />
       <Section2 />

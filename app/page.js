@@ -1,33 +1,14 @@
-"use client";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+'use client'
+import React from 'react'
 import Layout from "@/components/Layout";
-import { Team, Hero, Oferta, Portfolio, SplashScreen } from "@/components/home";
+import { Team, Hero, Oferta, Portfolio } from "@/components/home";
 import { ContactUs } from "@/components";
+import SplashContainer from "@/components/home/SplashContainer";
 
 export default function Home() {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
-  const [isLoading, setIsLoading] = useState(isHome);
-
-  useEffect(() => {
-    if (isLoading) {
-      return;
-    }
-
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 100);
-
-    return () => clearTimeout(timer);
-  }, [isLoading]);
-
   return (
     <Layout>
-      <SplashScreen
-        isLoading={isLoading}
-        finishLoading={() => setIsLoading(false)}
-      />
+      <SplashContainer />
       <Hero />
       <Oferta />
       <Portfolio />
