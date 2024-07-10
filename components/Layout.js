@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         {children}
       </div>
       <Footer />
-      <FacebookMsg />
+      {/* <FacebookMsg /> */}
       <AnimatedCursor
         innerSize={8}
         outerSize={17}

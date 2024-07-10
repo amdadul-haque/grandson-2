@@ -1,4 +1,5 @@
 import { ContactUs, Hero } from '@/components';
+import { FacebookMsg } from '@/components/home';
 import SplashContainer from '@/components/home/SplashContainer';
 import Layout from '@/components/Layout';
 import { Section1, Section2, Section3, Section4, Section5 } from '@/components/videos'
@@ -11,7 +12,8 @@ export const metadata = {
 
 const VideosPage = () => {
   return (
-    <Layout>
+    // <Layout>
+    <>
       <SplashContainer />
       <Hero />
       <Section1 />
@@ -19,7 +21,9 @@ const VideosPage = () => {
       <Section3 />
       <Section4 />
       <ContactUs />
-    </Layout>
+      <FacebookMsg />
+    </>
+    // </Layout>
   )
 }
 
